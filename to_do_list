@@ -1,0 +1,4 @@
+1. Viết câu lệnh sql tạo bảng data movie. movie gồm các trường: tên, thể loại, thời lượng, Đạo diễn(hay diễn viên)
+, giới hạn độ tuổi, giới thiệu, ảnh(đường dẫn), số thứ tự làm primary key
+2. Viết câu lệnh insert dữ liệu vào table trên, chắc tầm 10 phim
+3. Làm cái event đăng nhập và tạo tài khoản, quên mật khẩu để t còn sửa lại output hàm backend
