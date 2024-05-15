@@ -54,15 +54,10 @@ class Login():
 
 
     def create_acc(self,user,password):
-        index = -1
-        for i in range(self.database.shape[0]):
-            if self.database[i][0] == user:
-                index = i
-                break
-
-        #nếu đã tồn tại không thể thêm vào
-        if index != -1:
-            print("tài khoản này đã tồn tại")
+        sql = "SELECT * from customers where user = %s"
+        res = db.fetchone(sql,[user])
+        if res:
+            print("Tai khoan nay da ton tai")
             return False
 
         # điều kiện mật khẩu gồm có: có ít nhất 8 kí tự
@@ -84,7 +79,10 @@ class Login():
         if not cap:
             print("Mật khẩu phải có ít nhất 1 ký tự viết hoa")
             return False
-        self.database = np.vstack((self.database,[user,password]))
+        sql = "INSERT INTO customers (user, password) VALUES (%s, %s)"
+        db.execute(sql,[user,password])
+        db.mydb.commit()
+        print("Tạo tài khoản thành công")
         return True
 
     def print_database(self):
