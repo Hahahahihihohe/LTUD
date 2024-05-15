@@ -1,19 +1,21 @@
 import numpy as np
-
+from database import db
 class Login():
-    def __init__(self,database):
+    def __init__(self):
         self.user = None
         self.password = None
-        self.database = database #luu du lieu tai  khoan mat khau
-        #database dang (-1,2), cột đầu lưu tài khoản, cột hai lưu mật khẩu dạng string
 
     def check_pass(self,user,password):
         # hàm  nhập vào username và password, kiểm tra đúng thông tin tài khoản không
-        for i in range(self.database.shape[0]): #tim tat ca cac tai khoan
-            if self.database[i][0] == user and self.database[i][1] == password:
+        sql = "select * from customers where user = %s"
+        res = db.fetchone(sql,(user,))
+        if res:
+            if res[2] == password and res[1] == user:
                 return True
             else:
                 return False
+        else:
+            return False
 
     def forgot_pass(self,user,password):
         # Hàm xử lý để đặt lại mật khẩu, trước mắt yêu cầu điền username
