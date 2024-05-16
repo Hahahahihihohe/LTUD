@@ -15,7 +15,6 @@ class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(653, 650)
-        #
         font = QtGui.QFont()
         font.setBold(False)
         font.setItalic(False)
@@ -23,6 +22,10 @@ class Ui_MainWindow(object):
         MainWindow.setFont(font)
         MainWindow.setCursor(QtGui.QCursor(QtCore.Qt.ArrowCursor))
         MainWindow.setStyleSheet("")
+
+        MainWindow.setWindowFlag(QtCore.Qt.WindowType.FramelessWindowHint)
+        MainWindow.setAttribute(QtCore.Qt.WidgetAttribute.WA_TranslucentBackground)
+
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.widget = QtWidgets.QWidget(self.centralwidget)
@@ -32,7 +35,7 @@ class Ui_MainWindow(object):
 "")
         self.widget.setObjectName("widget")
         self.label = QtWidgets.QLabel(self.widget)
-        self.label.setGeometry(QtCore.QRect(15, 180, 91, 31))
+        self.label.setGeometry(QtCore.QRect(15, 170, 91, 31))
         self.label.setStyleSheet("background: rgba(0,0,0,0);\n"
 "border-radius: 2px solid rgba(0,0,0,0);\n"
 "color: rgb(20, 43, 36);\n"
@@ -40,7 +43,7 @@ class Ui_MainWindow(object):
 "")
         self.label.setObjectName("label")
         self.User = QtWidgets.QLineEdit(self.widget)
-        self.User.setGeometry(QtCore.QRect(114, 180, 171, 28))
+        self.User.setGeometry(QtCore.QRect(114, 170, 171, 28))
         self.User.setStyleSheet("background: rgb(255,255,255);\n"
 "border-radius: 7px;\n"
 "color: rgb(20, 43, 36);\n"
@@ -48,7 +51,7 @@ class Ui_MainWindow(object):
 "")
         self.User.setObjectName("User")
         self.label_2 = QtWidgets.QLabel(self.widget)
-        self.label_2.setGeometry(QtCore.QRect(15, 230, 91, 31))
+        self.label_2.setGeometry(QtCore.QRect(15, 220, 91, 31))
         self.label_2.setStyleSheet("background: rgba(0,0,0,0);\n"
 "border-radius: 2px solid rgba(0,0,0,0);\n"
 "color: rgb(20, 43, 36);\n"
@@ -56,7 +59,7 @@ class Ui_MainWindow(object):
 "")
         self.label_2.setObjectName("label_2")
         self.Pass_word = QtWidgets.QLineEdit(self.widget)
-        self.Pass_word.setGeometry(QtCore.QRect(114, 230, 171, 28))
+        self.Pass_word.setGeometry(QtCore.QRect(114, 220, 171, 28))
         self.Pass_word.setStyleSheet("background: rgb(255,255,255);\n"
 "border-radius: 7px;\n"
 "color: rgb(20, 43, 36);\n"
@@ -66,10 +69,11 @@ class Ui_MainWindow(object):
         self.Pass_word.setEchoMode(QtWidgets.QLineEdit.Password)
         self.Pass_word.setObjectName("Pass_word")
         self.login_btn = QtWidgets.QPushButton(self.widget)
-        self.login_btn.setGeometry(QtCore.QRect(15, 290, 270, 35))
+        self.login_btn.setGeometry(QtCore.QRect(15, 280, 270, 35))
         font = QtGui.QFont()
         font.setPointSize(11)
         self.login_btn.setFont(font)
+        self.login_btn.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.login_btn.setStyleSheet("QPushButton#login_btn{\n"
 "background-color: rgba(61, 157, 201, 0.851);\n"
 "border-radius: 10px;\n"
@@ -84,6 +88,49 @@ class Ui_MainWindow(object):
 "background-color : rgba(23, 107, 145, 0.851);\n"
 "}")
         self.login_btn.setObjectName("login_btn")
+        self.forgot_pw = QtWidgets.QPushButton(self.widget)
+        self.forgot_pw.setGeometry(QtCore.QRect(15, 320, 101, 21))
+        font = QtGui.QFont()
+        font.setPointSize(8)
+        self.forgot_pw.setFont(font)
+        self.forgot_pw.setStyleSheet("QPushButton#forgot_pw{\n"
+"background-color: rgba(0,0,0,0);\n"
+"color: rgb(20, 43, 36);\n"
+"}\n"
+"QPushButton#forgot_pw:hover{\n"
+"text-decoration: underline;\n"
+"}\n"
+"")
+        self.forgot_pw.setObjectName("forgot_pw")
+        self.label_3 = QtWidgets.QLabel(self.widget)
+        self.label_3.setGeometry(QtCore.QRect(15, 380, 121, 31))
+        self.label_3.setCursor(QtGui.QCursor(QtCore.Qt.ArrowCursor))
+        self.label_3.setStyleSheet("background: rgba(0,0,0,0);\n"
+"border-radius: 2px solid rgba(0,0,0,0);\n"
+"color: rgb(20, 43, 36);\n"
+"padding-bottom: 5px;\n"
+"")
+        self.label_3.setObjectName("label_3")
+        self.register_0 = QtWidgets.QPushButton(self.widget)
+        self.register_0.setGeometry(QtCore.QRect(150, 380, 111, 31))
+        font = QtGui.QFont()
+        font.setPointSize(8)
+        self.register_0.setFont(font)
+        self.register_0.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.register_0.setStyleSheet("QPushButton#register_0{\n"
+"background-color: rgba(92, 99, 232, 0.851);\n"
+"border-radius: 10px;\n"
+"color: rgb(20, 43, 36);\n"
+"}\n"
+"QPushButton#register_0:hover{\n"
+"background-color : rgba(50, 119, 217, 0.851);\n"
+"}\n"
+"QPushButton#register_0:pressed{\n"
+"padding-left : 4px;\n"
+"padding-top : 4px;\n"
+"background-color : rgba(23, 107, 145, 0.851);\n"
+"}")
+        self.register_0.setObjectName("register_0")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 653, 26))
@@ -104,6 +151,9 @@ class Ui_MainWindow(object):
         self.label_2.setText(_translate("MainWindow", "Mật khẩu"))
         self.Pass_word.setPlaceholderText(_translate("MainWindow", "Password"))
         self.login_btn.setText(_translate("MainWindow", "Đăng nhập"))
+        self.forgot_pw.setText(_translate("MainWindow", "Quên mật khẩu?"))
+        self.label_3.setText(_translate("MainWindow", "Chưa có tài khoản?"))
+        self.register_0.setText(_translate("MainWindow", "Đăng ký"))
 
 
 if __name__ == "__main__":
