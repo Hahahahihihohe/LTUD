@@ -14,79 +14,79 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(800, 600)
+        MainWindow.resize(653, 650)
+        #
         font = QtGui.QFont()
         font.setBold(False)
         font.setItalic(False)
         font.setWeight(50)
         MainWindow.setFont(font)
+        MainWindow.setCursor(QtGui.QCursor(QtCore.Qt.ArrowCursor))
         MainWindow.setStyleSheet("")
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
-        self.Password = QtWidgets.QLabel(self.centralwidget)
-        self.Password.setGeometry(QtCore.QRect(150, 190, 141, 41))
-        palette = QtGui.QPalette()
-        brush = QtGui.QBrush(QtGui.QColor(0, 0, 0))
-        brush.setStyle(QtCore.Qt.SolidPattern)
-        palette.setBrush(QtGui.QPalette.Active, QtGui.QPalette.WindowText, brush)
-        brush = QtGui.QBrush(QtGui.QColor(255, 255, 0))
-        brush.setStyle(QtCore.Qt.SolidPattern)
-        palette.setBrush(QtGui.QPalette.Active, QtGui.QPalette.Highlight, brush)
-        brush = QtGui.QBrush(QtGui.QColor(0, 0, 0))
-        brush.setStyle(QtCore.Qt.SolidPattern)
-        palette.setBrush(QtGui.QPalette.Inactive, QtGui.QPalette.WindowText, brush)
-        brush = QtGui.QBrush(QtGui.QColor(255, 255, 0))
-        brush.setStyle(QtCore.Qt.SolidPattern)
-        palette.setBrush(QtGui.QPalette.Inactive, QtGui.QPalette.Highlight, brush)
-        brush = QtGui.QBrush(QtGui.QColor(120, 120, 120))
-        brush.setStyle(QtCore.Qt.SolidPattern)
-        palette.setBrush(QtGui.QPalette.Disabled, QtGui.QPalette.WindowText, brush)
-        brush = QtGui.QBrush(QtGui.QColor(0, 120, 215))
-        brush.setStyle(QtCore.Qt.SolidPattern)
-        palette.setBrush(QtGui.QPalette.Disabled, QtGui.QPalette.Highlight, brush)
-        self.Password.setPalette(palette)
-        font = QtGui.QFont()
-        font.setPointSize(12)
-        font.setBold(False)
-        font.setItalic(False)
-        font.setUnderline(False)
-        font.setWeight(50)
-        font.setStrikeOut(False)
-        self.Password.setFont(font)
-        self.Password.setObjectName("Password")
-        self.acc = QtWidgets.QLineEdit(self.centralwidget)
-        self.acc.setGeometry(QtCore.QRect(390, 130, 241, 31))
-        self.acc.setObjectName("acc")
-        self.pw = QtWidgets.QLineEdit(self.centralwidget)
-        self.pw.setGeometry(QtCore.QRect(390, 190, 241, 31))
-        self.pw.setEchoMode(QtWidgets.QLineEdit.Password)
-        self.pw.setObjectName("pw")
-        self.User = QtWidgets.QLabel(self.centralwidget)
-        self.User.setGeometry(QtCore.QRect(150, 130, 141, 31))
-        palette = QtGui.QPalette()
-        brush = QtGui.QBrush(QtGui.QColor(0, 0, 0))
-        brush.setStyle(QtCore.Qt.SolidPattern)
-        palette.setBrush(QtGui.QPalette.Active, QtGui.QPalette.WindowText, brush)
-        brush = QtGui.QBrush(QtGui.QColor(0, 0, 0))
-        brush.setStyle(QtCore.Qt.SolidPattern)
-        palette.setBrush(QtGui.QPalette.Inactive, QtGui.QPalette.WindowText, brush)
-        brush = QtGui.QBrush(QtGui.QColor(120, 120, 120))
-        brush.setStyle(QtCore.Qt.SolidPattern)
-        palette.setBrush(QtGui.QPalette.Disabled, QtGui.QPalette.WindowText, brush)
-        self.User.setPalette(palette)
-        font = QtGui.QFont()
-        font.setPointSize(12)
-        self.User.setFont(font)
+        self.widget = QtWidgets.QWidget(self.centralwidget)
+        self.widget.setGeometry(QtCore.QRect(10, 10, 301, 471))
+        self.widget.setStyleSheet("background: rgb(79, 228, 242);\n"
+"border-radius: 20px;\n"
+"")
+        self.widget.setObjectName("widget")
+        self.label = QtWidgets.QLabel(self.widget)
+        self.label.setGeometry(QtCore.QRect(15, 180, 91, 31))
+        self.label.setStyleSheet("background: rgba(0,0,0,0);\n"
+"border-radius: 2px solid rgba(0,0,0,0);\n"
+"color: rgb(20, 43, 36);\n"
+"padding-bottom: 5px;\n"
+"")
+        self.label.setObjectName("label")
+        self.User = QtWidgets.QLineEdit(self.widget)
+        self.User.setGeometry(QtCore.QRect(114, 180, 171, 28))
+        self.User.setStyleSheet("background: rgb(255,255,255);\n"
+"border-radius: 7px;\n"
+"color: rgb(20, 43, 36);\n"
+"padding-bottom: 5px;\n"
+"")
         self.User.setObjectName("User")
-        self.login = QtWidgets.QPushButton(self.centralwidget)
-        self.login.setGeometry(QtCore.QRect(260, 280, 141, 31))
+        self.label_2 = QtWidgets.QLabel(self.widget)
+        self.label_2.setGeometry(QtCore.QRect(15, 230, 91, 31))
+        self.label_2.setStyleSheet("background: rgba(0,0,0,0);\n"
+"border-radius: 2px solid rgba(0,0,0,0);\n"
+"color: rgb(20, 43, 36);\n"
+"padding-bottom: 5px;\n"
+"")
+        self.label_2.setObjectName("label_2")
+        self.Pass_word = QtWidgets.QLineEdit(self.widget)
+        self.Pass_word.setGeometry(QtCore.QRect(114, 230, 171, 28))
+        self.Pass_word.setStyleSheet("background: rgb(255,255,255);\n"
+"border-radius: 7px;\n"
+"color: rgb(20, 43, 36);\n"
+"padding-bottom: 5px;\n"
+"")
+        self.Pass_word.setText("")
+        self.Pass_word.setEchoMode(QtWidgets.QLineEdit.Password)
+        self.Pass_word.setObjectName("Pass_word")
+        self.login_btn = QtWidgets.QPushButton(self.widget)
+        self.login_btn.setGeometry(QtCore.QRect(15, 290, 270, 35))
         font = QtGui.QFont()
-        font.setPointSize(12)
-        self.login.setFont(font)
-        self.login.setObjectName("login")
+        font.setPointSize(11)
+        self.login_btn.setFont(font)
+        self.login_btn.setStyleSheet("QPushButton#login_btn{\n"
+"background-color: rgba(61, 157, 201, 0.851);\n"
+"border-radius: 10px;\n"
+"color: rgb(20, 43, 36);\n"
+"}\n"
+"QPushButton#login_btn:hover{\n"
+"background-color : rgba(50, 119, 217, 0.851);\n"
+"}\n"
+"QPushButton#login_btn:pressed{\n"
+"padding-left : 4px;\n"
+"padding-bottom : 4px;\n"
+"background-color : rgba(23, 107, 145, 0.851);\n"
+"}")
+        self.login_btn.setObjectName("login_btn")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 800, 26))
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 653, 26))
         self.menubar.setObjectName("menubar")
         MainWindow.setMenuBar(self.menubar)
         self.statusbar = QtWidgets.QStatusBar(MainWindow)
@@ -99,9 +99,11 @@ class Ui_MainWindow(object):
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
-        self.Password.setText(_translate("MainWindow", "Mật khẩu"))
-        self.User.setText(_translate("MainWindow", "Tên đăng nhập"))
-        self.login.setText(_translate("MainWindow", "Đăng nhập"))
+        self.label.setText(_translate("MainWindow", "Tài khoản"))
+        self.User.setPlaceholderText(_translate("MainWindow", "Username"))
+        self.label_2.setText(_translate("MainWindow", "Mật khẩu"))
+        self.Pass_word.setPlaceholderText(_translate("MainWindow", "Password"))
+        self.login_btn.setText(_translate("MainWindow", "Đăng nhập"))
 
 
 if __name__ == "__main__":
