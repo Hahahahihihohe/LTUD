@@ -19,14 +19,10 @@ class Login():
 
     def forgot_pass(self,user,password):
         # Hàm xử lý để đặt lại mật khẩu, trước mắt yêu cầu điền username
-        index = -1
-        for i in range(self.database.shape[0]):
-            if self.database[i][0] == user:
-                index = i
-                break
-        if index == -1:
-            #nếu tài khoản không tồn tại thì không thể đổi mật khẩu
-            print("tai khoan khong ton tai")
+        sql = "SELECT * from customers where user = %s"
+        res = db.fetchone(sql, [user])
+        if not res:
+            print("Tai khoan nay khong ton tai")
             return False
 
         #điều kiện mật khẩu gồm có: có ít nhất 8 kí tự
@@ -49,7 +45,9 @@ class Login():
         if not cap:
             print("Mật khẩu phải có ít nhất 1 ký tự viết hoa")
             return False
-        self.database[index][1] = password
+        sql = "update customers set password = %s where user = %s"
+        db.execute(sql,[password,user])
+        db.mydb.commit()
         return True
 
 
@@ -85,5 +83,8 @@ class Login():
         print("Tạo tài khoản thành công")
         return True
 
-    def print_database(self):
-        print(self.database)
+    def show_database(self):
+        sql = "select * from customers"
+        res = np.array(db.fetchall(sql))
+        print(res)
+

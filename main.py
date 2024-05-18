@@ -3,7 +3,8 @@ import mysql.connector
 
 
 login = Login()
-login.create_acc("Nolan669d9","hieussaS1")
+login.forgot_pass("Cameronconcac2","sdhasdjk3D")
+login.show_database()
 
 
 
