@@ -17,13 +17,19 @@ class Login():
         else:
             return False
 
-    def forgot_pass(self,user,password):
+    def forgot_pass(self,user,password,con_pass):
+        # 1. Tài khoản không tồn tại
+        # 2. Mật khẩu phải có ít nhất 8 ký tự
+        # 3. Mật khẩu phải có ít nhất 1 chữ số
+        # 4. Mật khẩu phải có ít nhất 1 ký tự viết hoa
+        # 5. Mật khẩu nhập lại không đúng
+        # 6. Đúng rồi
         # Hàm xử lý để đặt lại mật khẩu, trước mắt yêu cầu điền username
         sql = "SELECT * from customers where user = %s"
         res = db.fetchone(sql, [user])
         if not res:
             print("Tai khoan nay khong ton tai")
-            return False
+            return 1
 
         #điều kiện mật khẩu gồm có: có ít nhất 8 kí tự
         #                           có ít nhất 1 ký tự viết hoa
@@ -31,7 +37,7 @@ class Login():
 
         if len(password) < 8:
             print("Mật khẩu phải có ít nhất 8 ký tự")
-            return False
+            return 2
         num = False
         cap = False
         for i in password:
@@ -41,29 +47,38 @@ class Login():
                 cap = True
         if not num:
             print("Mật khẩu phải có ít nhất 1 chữ số")
-            return False
+            return 3
         if not cap:
             print("Mật khẩu phải có ít nhất 1 ký tự viết hoa")
-            return False
+            return 4
+        if con_pass != password:
+            print("Mật khẩu nhập lại không đúng")
+            return 5
         sql = "update customers set password = %s where user = %s"
         db.execute(sql,[password,user])
         db.mydb.commit()
-        return True
+        return 6
 
 
-    def create_acc(self,user,password, name, age):
+    def create_acc(self,user,password, con_pass, name, age):
+        # 1. Tài khoản đã tồn tại
+        # 2. Mật khẩu phải có ít nhất 8 ký tự
+        # 3. Mật khẩu phải có ít nhất 1 chữ số
+        # 4. Mật khẩu phải có ít nhất 1 ký tự viết hoa
+        # 5. Mật khẩu nhập lại không đúng
+        # 6. Đúng rồi
         sql = "SELECT * from customers where user = %s"
         res = db.fetchone(sql,[user])
         if res:
             print("Tai khoan nay da ton tai")
-            return False
+            return 1
 
         # điều kiện mật khẩu gồm có: có ít nhất 8 kí tự
         #                           có ít nhất 1 ký tự viết hoa
         #                           có ít nhất 1 chữ số
         if len(password) < 8:
             print("Mật khẩu phải có ít nhất 8 ký tự")
-            return False
+            return 2
         num = False
         cap = False
         for i in password:
@@ -73,10 +88,12 @@ class Login():
                 cap = True
         if not num:
             print("Mật khẩu phải có ít nhất 1 chữ số")
-            return False
+            return 3
         if not cap:
             print("Mật khẩu phải có ít nhất 1 ký tự viết hoa")
-            return False
+            return 4
+        if con_pass != password:
+            return 5
         sql = "INSERT INTO customers (user, password) VALUES (%s, %s)"
         db.execute(sql,[user,password])
         db.mydb.commit()
@@ -84,7 +101,7 @@ class Login():
         db.execute(sql, [name, age])
         db.mydb.commit()
         print("Tạo tài khoản thành công")
-        return True
+        return 6
 
     def show_database(self):
         sql = "select * from customers"

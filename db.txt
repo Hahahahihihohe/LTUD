@@ -4,6 +4,7 @@ customers
 ('password', 'varchar(255)', 'YES', '', None, '')
 (1, 'Nolan6699', 'Hieus2010'), (2, 'Cameronconcac2', 'sdahsj1234'), (14, 'Petersad1', 'Lowstreet4'), (15, 'Amyawdw12', 'Applest652')
 user_info
+ ['3' 'Petersad1' 'Lowstreet4']
 [('id', 'int', 'NO', 'PRI', None, 'auto_increment'),
  ('name', 'varchar(255)', 'YES', '', None, ''),
 ('age', 'int', 'YES', '', None, ''),
