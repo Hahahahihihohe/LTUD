@@ -51,7 +51,7 @@ class Login():
         return True
 
 
-    def create_acc(self,user,password):
+    def create_acc(self,user,password, name, age):
         sql = "SELECT * from customers where user = %s"
         res = db.fetchone(sql,[user])
         if res:
@@ -79,6 +79,9 @@ class Login():
             return False
         sql = "INSERT INTO customers (user, password) VALUES (%s, %s)"
         db.execute(sql,[user,password])
+        db.mydb.commit()
+        sql = "INSERT INTO user_info (name, age, money) VALUES (%s, %s,0)"
+        db.execute(sql, [name, age])
         db.mydb.commit()
         print("Tạo tài khoản thành công")
         return True

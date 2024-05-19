@@ -1,10 +1,15 @@
 from login import Login
 import mysql.connector
+from database import db
+import numpy as np
+from user import User
 
 
-login = Login()
-login.forgot_pass("Cameronconcac2","sdhasdjk3D")
-login.show_database()
+
+
+
+
+
 
 
 
