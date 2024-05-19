@@ -1,0 +1,12 @@
+Hướng dẫn sử dụng mấy hàm backend của t
+I. Login
+1. Khởi tạo class không cần tham số
+2. def check_pass(self,user,password):
+   Truyền vào tài khoản và mật khẩu làm 2 string, trả về true nếu đúng tk hoặc mật khẩu, ngược lại
+3. def forgot_pass(self,user,password):
+Truyền vào tài khoản và mật khẩu làm 2 string, nếu có tồn tại tài khoản đó, sẽ cập nhật password và trả về true, false nếu không tồn tại tài khoản. Mật khẩu cũng yêu cầu thỏa mãn các điều kiện được đưa ra/
+4. def create_acc(self,user,password, name, age):
+Truyền vào tài khoản và mật khẩu làm 2 string, tạo một tài khoản nếu tên tk đó chưa tồn tại và mật khẩu thỏa mãn điều kiện. 
+Trả true nếu tạo tk thành công, đồng thời tạo lưu luôn thông tin người dùng vào cơ sở dữ liệu
+5. def show_database(self):
+In ra toàn bộ tài khoản mật khẩu trong database, nhìn cho dễ
