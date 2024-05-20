@@ -9,3 +9,10 @@ user_info
  ('name', 'varchar(255)', 'YES', '', None, ''),
 ('age', 'int', 'YES', '', None, ''),
  ('money', 'int', 'YES', '', None, '')]
+
+ movie_time
+[['id' 'int' 'NO' 'PRI' None 'auto_increment']
+ ['movie_id' 'int' 'YES' '' None '']
+ ['day' 'varchar(255)' 'YES' '' None '']
+ ['hour' 'varchar(255)' 'YES' '' None '']
+ ['seat' 'varchar(255)' 'YES' '' None '']]

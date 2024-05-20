@@ -9,10 +9,10 @@ mydb = mysql.connector.connect(host="moviedatabase-moviedatabase.e.aivencloud.co
                                        , port=14802,
                                        database='client')
 
-cursor = mydb.cursor()
-cursor.execute("select * from customers")
 
-res = np.array(cursor.fetchall())
+mycursor = mydb.cursor()
+mycursor.execute("describe movie_time")
+res = np.array(mycursor.fetchall())
 print(res)
 
 
