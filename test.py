@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'test.ui'
+# Form implementation generated from reading ui file 'register.ui'
 #
 # Created by: PyQt5 UI code generator 5.15.10
 #
@@ -9,40 +9,197 @@
 
 
 from PyQt5 import QtCore, QtGui, QtWidgets
+from PyQt5.QtWidgets import QMainWindow
 
 
-class Second_MainWindow(object):
-    def setupUi(self, MainWindow):
-        MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(800, 600)
-        self.centralwidget = QtWidgets.QWidget(MainWindow)
+class Register_Window(QMainWindow):
+    def __init__(self):
+        super().__init__()
+        self.setupUi()
+
+    def setupUi(self):
+        self.setObjectName("MainWindow")
+        self.resize(576, 619)
+        self.centralwidget = QtWidgets.QWidget(self)
         self.centralwidget.setObjectName("centralwidget")
-        self.label = QtWidgets.QLabel(self.centralwidget)
-        self.label.setGeometry(QtCore.QRect(220, 250, 261, 51))
+        self.widget = QtWidgets.QWidget(self.centralwidget)
+        self.widget.setGeometry(QtCore.QRect(10, 10, 301, 471))
+
+        self.widget.setStyleSheet("background: rgb(79, 228, 242);\n"
+                                  "border-radius: 20px;\n"
+                                  "")
+        self.widget.setObjectName("widget")
+        self.label = QtWidgets.QLabel(self.widget)
+        self.label.setGeometry(QtCore.QRect(60, 40, 180, 41))
+        font = QtGui.QFont()
+        font.setPointSize(12)
+        self.label.setFont(font)
+        self.label.setContextMenuPolicy(QtCore.Qt.DefaultContextMenu)
+        self.label.setLayoutDirection(QtCore.Qt.LeftToRight)
+        self.label.setStyleSheet("background: rgba(0,0,0,0);\n"
+                                 "border-radius: 2px solid rgba(0,0,0,0);\n"
+                                 "color: rgb(20, 43, 36);\n"
+                                 "padding-bottom: 5px;\n"
+                                 "")
         self.label.setObjectName("label")
-        MainWindow.setCentralWidget(self.centralwidget)
-        self.menubar = QtWidgets.QMenuBar(MainWindow)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 800, 26))
+        self.label_2 = QtWidgets.QLabel(self.widget)
+        self.label_2.setGeometry(QtCore.QRect(10, 120, 91, 31))
+        font = QtGui.QFont()
+        font.setPointSize(7)
+        self.label_2.setFont(font)
+        self.label_2.setStyleSheet("background: rgba(0,0,0,0);\n"
+                                   "border-radius: 2px solid rgba(0,0,0,0);\n"
+                                   "color: rgb(20, 43, 36);\n"
+                                   "padding-bottom: 5px;\n"
+                                   "")
+        self.label_2.setObjectName("label_2")
+        self.label_3 = QtWidgets.QLabel(self.widget)
+        self.label_3.setGeometry(QtCore.QRect(10, 160, 91, 31))
+        font = QtGui.QFont()
+        font.setPointSize(7)
+        self.label_3.setFont(font)
+        self.label_3.setStyleSheet("background: rgba(0,0,0,0);\n"
+                                   "border-radius: 2px solid rgba(0,0,0,0);\n"
+                                   "color: rgb(20, 43, 36);\n"
+                                   "padding-bottom: 5px;\n"
+                                   "")
+        self.label_3.setObjectName("label_3")
+        self.label_5 = QtWidgets.QLabel(self.widget)
+        self.label_5.setGeometry(QtCore.QRect(10, 210, 91, 31))
+        font = QtGui.QFont()
+        font.setPointSize(7)
+        self.label_5.setFont(font)
+        self.label_5.setStyleSheet("background: rgba(0,0,0,0);\n"
+                                   "border-radius: 2px solid rgba(0,0,0,0);\n"
+                                   "color: rgb(20, 43, 36);\n"
+                                   "padding-bottom: 5px;\n"
+                                   "")
+        self.label_5.setObjectName("label_5")
+        self.label_6 = QtWidgets.QLabel(self.widget)
+        self.label_6.setGeometry(QtCore.QRect(10, 250, 91, 31))
+        font = QtGui.QFont()
+        font.setPointSize(7)
+        self.label_6.setFont(font)
+        self.label_6.setStyleSheet("background: rgba(0,0,0,0);\n"
+                                   "border-radius: 2px solid rgba(0,0,0,0);\n"
+                                   "color: rgb(20, 43, 36);\n"
+                                   "padding-bottom: 5px;\n"
+                                   "")
+        self.label_6.setObjectName("label_6")
+        self.label_7 = QtWidgets.QLabel(self.widget)
+        self.label_7.setGeometry(QtCore.QRect(10, 290, 111, 31))
+        font = QtGui.QFont()
+        font.setPointSize(7)
+        self.label_7.setFont(font)
+        self.label_7.setStyleSheet("background: rgba(0,0,0,0);\n"
+                                   "border-radius: 2px solid rgba(0,0,0,0);\n"
+                                   "color: rgb(20, 43, 36);\n"
+                                   "padding-bottom: 5px;\n"
+                                   "")
+        self.label_7.setObjectName("label_7")
+        self.User = QtWidgets.QLineEdit(self.widget)
+        self.User.setGeometry(QtCore.QRect(120, 120, 171, 28))
+        font = QtGui.QFont()
+        font.setPointSize(7)
+        self.User.setFont(font)
+        self.User.setStyleSheet("background: rgb(255,255,255);\n"
+                                "border-radius: 7px;\n"
+                                "color: rgb(20, 43, 36);\n"
+                                "padding-bottom: 5px;\n"
+                                "")
+        self.User.setPlaceholderText("")
+        self.User.setObjectName("User")
+        self.register_0 = QtWidgets.QPushButton(self.widget)
+        self.register_0.setGeometry(QtCore.QRect(80, 380, 111, 31))
+        font = QtGui.QFont()
+        font.setPointSize(8)
+        self.register_0.setFont(font)
+        self.register_0.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.register_0.setStyleSheet("QPushButton#register_0{\n"
+                                      "background-color: rgba(92, 99, 232, 0.851);\n"
+                                      "border-radius: 10px;\n"
+                                      "color: rgb(20, 43, 36);\n"
+                                      "}\n"
+                                      "QPushButton#register_0:hover{\n"
+                                      "background-color : rgba(50, 119, 217, 0.851);\n"
+                                      "}\n"
+                                      "QPushButton#register_0:pressed{\n"
+                                      "padding-left : 4px;\n"
+                                      "padding-top : 4px;\n"
+                                      "background-color : rgba(23, 107, 145, 0.851);\n"
+                                      "}")
+        self.register_0.setObjectName("register_0")
+        self.User_3 = QtWidgets.QLineEdit(self.widget)
+        self.User_3.setGeometry(QtCore.QRect(120, 210, 171, 28))
+        font = QtGui.QFont()
+        font.setPointSize(7)
+        self.User_3.setFont(font)
+        self.User_3.setStyleSheet("background: rgb(255,255,255);\n"
+                                  "border-radius: 7px;\n"
+                                  "color: rgb(20, 43, 36);\n"
+                                  "padding-bottom: 5px;\n"
+                                  "")
+        self.User_3.setPlaceholderText("")
+        self.User_3.setObjectName("User_3")
+        self.User_4 = QtWidgets.QLineEdit(self.widget)
+        self.User_4.setGeometry(QtCore.QRect(120, 160, 171, 28))
+        font = QtGui.QFont()
+        font.setPointSize(7)
+        self.User_4.setFont(font)
+        self.User_4.setStyleSheet("background: rgb(255,255,255);\n"
+                                  "border-radius: 7px;\n"
+                                  "color: rgb(20, 43, 36);\n"
+                                  "padding-bottom: 5px;\n"
+                                  "")
+        self.User_4.setPlaceholderText("")
+        self.User_4.setObjectName("User_4")
+        self.User_2 = QtWidgets.QLineEdit(self.widget)
+        self.User_2.setGeometry(QtCore.QRect(120, 250, 171, 28))
+        self.User_2.setStyleSheet("background: rgb(255,255,255);\n"
+                                  "border-radius: 7px;\n"
+                                  "color: rgb(20, 43, 36);\n"
+                                  "padding-bottom: 5px;\n"
+                                  "")
+        self.User_2.setEchoMode(QtWidgets.QLineEdit.Password)
+        self.User_2.setPlaceholderText("")
+        self.User_2.setObjectName("User_2")
+        self.User_5 = QtWidgets.QLineEdit(self.widget)
+        self.User_5.setGeometry(QtCore.QRect(120, 290, 171, 28))
+        self.User_5.setStyleSheet("background: rgb(255,255,255);\n"
+                                  "border-radius: 7px;\n"
+                                  "color: rgb(20, 43, 36);\n"
+                                  "padding-bottom: 5px;\n"
+                                  "")
+        self.User_5.setEchoMode(QtWidgets.QLineEdit.Password)
+        self.User_5.setPlaceholderText("")
+        self.User_5.setObjectName("User_5")
+        self.setCentralWidget(self.centralwidget)
+        self.menubar = QtWidgets.QMenuBar(self)
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 576, 26))
         self.menubar.setObjectName("menubar")
-        MainWindow.setMenuBar(self.menubar)
-        self.statusbar = QtWidgets.QStatusBar(MainWindow)
+        self.setMenuBar(self.menubar)
+        self.statusbar = QtWidgets.QStatusBar(self)
         self.statusbar.setObjectName("statusbar")
-        MainWindow.setStatusBar(self.statusbar)
+        self.setStatusBar(self.statusbar)
 
-        self.retranslateUi(MainWindow)
-        QtCore.QMetaObject.connectSlotsByName(MainWindow)
+        self.retranslateUi()
+        QtCore.QMetaObject.connectSlotsByName(self)
 
-    def retranslateUi(self, MainWindow):
+    def retranslateUi(self):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
-        self.label.setText(_translate("MainWindow", "dang nhap thanh cong"))
+        self.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        self.label.setText(_translate("MainWindow", "Tạo tài khoản mới"))
+        self.label_2.setText(_translate("MainWindow", "Họ và tên"))
+        self.label_3.setText(_translate("MainWindow", "Tuổi"))
+        self.label_5.setText(_translate("MainWindow", "Tài khoản"))
+        self.label_6.setText(_translate("MainWindow", "Mật khẩu"))
+        self.label_7.setText(_translate("MainWindow", "Nhập lại mật khẩu"))
+        self.register_0.setText(_translate("MainWindow", "Đăng ký"))
 
 
 if __name__ == "__main__":
     import sys
     app = QtWidgets.QApplication(sys.argv)
-    MainWindow = QtWidgets.QMainWindow()
-    ui = Second_MainWindow()
-    ui.setupUi(MainWindow)
-    MainWindow.show()
+    ui = Register_Window()
+    ui.show()
     sys.exit(app.exec_())

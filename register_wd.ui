@@ -184,7 +184,7 @@ padding-bottom: 5px;
       <string>Nhập lại mật khẩu</string>
      </property>
     </widget>
-    <widget class="QLineEdit" name="User">
+    <widget class="QLineEdit" name="name">
      <property name="geometry">
       <rect>
        <x>120</x>
@@ -245,7 +245,7 @@ background-color : rgba(23, 107, 145, 0.851);
       <string>Đăng ký</string>
      </property>
     </widget>
-    <widget class="QLineEdit" name="User_3">
+    <widget class="QLineEdit" name="account">
      <property name="geometry">
       <rect>
        <x>120</x>
@@ -270,7 +270,7 @@ padding-bottom: 5px;
       <string/>
      </property>
     </widget>
-    <widget class="QLineEdit" name="User_4">
+    <widget class="QLineEdit" name="age">
      <property name="geometry">
       <rect>
        <x>120</x>
@@ -295,7 +295,7 @@ padding-bottom: 5px;
       <string/>
      </property>
     </widget>
-    <widget class="QLineEdit" name="User_2">
+    <widget class="QLineEdit" name="pw">
      <property name="geometry">
       <rect>
        <x>120</x>
@@ -318,7 +318,7 @@ padding-bottom: 5px;
       <string/>
      </property>
     </widget>
-    <widget class="QLineEdit" name="User_5">
+    <widget class="QLineEdit" name="check_pw">
      <property name="geometry">
       <rect>
        <x>120</x>
