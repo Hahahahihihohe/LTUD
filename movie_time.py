@@ -38,6 +38,9 @@ class Movie_time():
         db.mydb.commit()
         print("Mua thanh cong")
         return True
+
+    def showALL(self):
+        print(self.id,self.movie_id,self.name, self.day,self.hour,self.seat)
 class Booking_screen():
     def __init__(self):
         self.list = []
@@ -57,11 +60,11 @@ class Booking_screen():
             self.list.append(movie_time)
 
 
-    def ShowMovieTime(self,movie_id):
+    def ShowMovieTime(self,day):
         # hiển thị toàn bộ lịch chiếu của phim đó
         list1 = []
         for i in self.list:
-            if i.movie_id == str(movie_id):
+            if i.day[0:2] == str(day):
 
                 list1.append(i)
 

@@ -20,9 +20,9 @@ class Movie():
         #trả về tên phim
         return self.name
 
-    def time(self):
+    def GetTime(self):
         #Trả về thời lượng phim
-        return self.time
+        return str(self.time)
 
     def GetDes(self):
         #Trả về mô tả phim

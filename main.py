@@ -5,10 +5,10 @@ import numpy as np
 from user import User
 from main_scr import Mainscreen,Movie
 from movie_time import Booking_screen,Movie_time
-user = User()
-user.update_info(3)
-print(user.GetMoney())
-
+book = Booking_screen()
+x = book.ShowMovieTime(23)
+for i in x:
+    i.showALL()
 
 
 
