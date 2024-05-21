@@ -6,25 +6,12 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>371</width>
-    <height>582</height>
+    <width>441</width>
+    <height>600</height>
    </rect>
-  </property>
-  <property name="font">
-   <font>
-    <weight>50</weight>
-    <italic>false</italic>
-    <bold>false</bold>
-   </font>
-  </property>
-  <property name="cursor">
-   <cursorShape>ArrowCursor</cursorShape>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
-  </property>
-  <property name="styleSheet">
-   <string notr="true"/>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QWidget" name="widget" native="true">
@@ -44,11 +31,16 @@ border-radius: 20px;
     <widget class="QLabel" name="label">
      <property name="geometry">
       <rect>
-       <x>15</x>
+       <x>5</x>
        <y>170</y>
        <width>91</width>
        <height>31</height>
       </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>7</pointsize>
+      </font>
      </property>
      <property name="styleSheet">
       <string notr="true">background: rgba(0,0,0,0);
@@ -61,12 +53,12 @@ padding-bottom: 5px;
       <string>Tài khoản</string>
      </property>
     </widget>
-    <widget class="QLineEdit" name="User">
+    <widget class="QLineEdit" name="User_old">
      <property name="geometry">
       <rect>
-       <x>114</x>
+       <x>134</x>
        <y>170</y>
-       <width>171</width>
+       <width>151</width>
        <height>28</height>
       </rect>
      </property>
@@ -78,17 +70,22 @@ padding-bottom: 5px;
 </string>
      </property>
      <property name="placeholderText">
-      <string>Username</string>
+      <string>your account</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_2">
      <property name="geometry">
       <rect>
-       <x>15</x>
+       <x>5</x>
        <y>220</y>
        <width>91</width>
        <height>31</height>
       </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>7</pointsize>
+      </font>
      </property>
      <property name="styleSheet">
       <string notr="true">background: rgba(0,0,0,0);
@@ -98,15 +95,15 @@ padding-bottom: 5px;
 </string>
      </property>
      <property name="text">
-      <string>Mật khẩu</string>
+      <string>Mật khẩu mới</string>
      </property>
     </widget>
-    <widget class="QLineEdit" name="Pass_word">
+    <widget class="QLineEdit" name="pw_new">
      <property name="geometry">
       <rect>
-       <x>114</x>
+       <x>134</x>
        <y>220</y>
-       <width>171</width>
+       <width>151</width>
        <height>28</height>
       </rect>
      </property>
@@ -124,84 +121,22 @@ padding-bottom: 5px;
       <enum>QLineEdit::Password</enum>
      </property>
      <property name="placeholderText">
-      <string>Password</string>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="login_btn">
-     <property name="geometry">
-      <rect>
-       <x>15</x>
-       <y>280</y>
-       <width>270</width>
-       <height>35</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>11</pointsize>
-      </font>
-     </property>
-     <property name="cursor">
-      <cursorShape>PointingHandCursor</cursorShape>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">QPushButton#login_btn{
-background-color: rgba(61, 157, 201, 0.851);
-border-radius: 10px;
-color: rgb(20, 43, 36);
-}
-QPushButton#login_btn:hover{
-background-color : rgba(50, 119, 217, 0.851);
-}
-QPushButton#login_btn:pressed{
-padding-left : 4px;
-padding-bottom : 4px;
-background-color : rgba(23, 107, 145, 0.851);
-}</string>
-     </property>
-     <property name="text">
-      <string>Đăng nhập</string>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="forgot_pw_btn">
-     <property name="geometry">
-      <rect>
-       <x>15</x>
-       <y>320</y>
-       <width>101</width>
-       <height>21</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>8</pointsize>
-      </font>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">QPushButton#forgot_pw{
-background-color: rgba(0,0,0,0);
-color: rgb(20, 43, 36);
-}
-QPushButton#forgot_pw:hover{
-text-decoration: underline;
-}
-</string>
-     </property>
-     <property name="text">
-      <string>Quên mật khẩu?</string>
+      <string>new password</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_3">
      <property name="geometry">
       <rect>
-       <x>15</x>
-       <y>380</y>
-       <width>121</width>
+       <x>5</x>
+       <y>270</y>
+       <width>131</width>
        <height>31</height>
       </rect>
      </property>
-     <property name="cursor">
-      <cursorShape>ArrowCursor</cursorShape>
+     <property name="font">
+      <font>
+       <pointsize>7</pointsize>
+      </font>
      </property>
      <property name="styleSheet">
       <string notr="true">background: rgba(0,0,0,0);
@@ -211,14 +146,58 @@ padding-bottom: 5px;
 </string>
      </property>
      <property name="text">
-      <string>Chưa có tài khoản?</string>
+      <string>Nhập lại mật khẩu mới</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="register_0">
+    <widget class="QLabel" name="label_4">
      <property name="geometry">
       <rect>
-       <x>150</x>
-       <y>380</y>
+       <x>50</x>
+       <y>50</y>
+       <width>201</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Tìm tài khoản của bạn</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="pw_new2">
+     <property name="geometry">
+      <rect>
+       <x>134</x>
+       <y>270</y>
+       <width>151</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background: rgb(255,255,255);
+border-radius: 7px;
+color: rgb(20, 43, 36);
+padding-bottom: 5px;
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="echoMode">
+      <enum>QLineEdit::Password</enum>
+     </property>
+     <property name="placeholderText">
+      <string>confirm new password</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="change_pw">
+     <property name="geometry">
+      <rect>
+       <x>95</x>
+       <y>360</y>
        <width>111</width>
        <height>31</height>
       </rect>
@@ -232,22 +211,22 @@ padding-bottom: 5px;
       <cursorShape>PointingHandCursor</cursorShape>
      </property>
      <property name="styleSheet">
-      <string notr="true">QPushButton#register_0{
+      <string notr="true">QPushButton#change_pw{
 background-color: rgba(92, 99, 232, 0.851);
 border-radius: 10px;
 color: rgb(20, 43, 36);
 }
-QPushButton#register_0:hover{
+QPushButton#change_pw:hover{
 background-color : rgba(50, 119, 217, 0.851);
 }
-QPushButton#register_0:pressed{
+QPushButton#change_pw:pressed{
 padding-left : 4px;
 padding-top : 4px;
 background-color : rgba(23, 107, 145, 0.851);
 }</string>
      </property>
      <property name="text">
-      <string>Đăng ký</string>
+      <string>Đổi mật khẩu</string>
      </property>
     </widget>
    </widget>
@@ -257,7 +236,7 @@ background-color : rgba(23, 107, 145, 0.851);
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>371</width>
+     <width>441</width>
      <height>26</height>
     </rect>
    </property>
