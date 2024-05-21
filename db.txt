@@ -9,10 +9,17 @@ user_info
  ('name', 'varchar(255)', 'YES', '', None, ''),
 ('age', 'int', 'YES', '', None, ''),
  ('money', 'int', 'YES', '', None, '')]
-
  movie_time
 [['id' 'int' 'NO' 'PRI' None 'auto_increment']
  ['movie_id' 'int' 'YES' '' None '']
  ['day' 'varchar(255)' 'YES' '' None '']
  ['hour' 'varchar(255)' 'YES' '' None '']
  ['seat' 'varchar(255)' 'YES' '' None '']]
+ movie
+ [['ID' 'int' 'NO' 'PRI' None 'auto_increment']
+ ['TENPHIM' 'varchar(255)' 'NO' '' None '']
+ ['THOILUONG' 'int' 'NO' '' None '']
+ ['NOIDUNG' 'mediumtext' 'NO' '' None '']
+ ['THELOAI' 'char(255)' 'NO' '' None '']
+ ['TUOI' 'int' 'NO' '' None '']
+ ['image' 'longblob' 'YES' '' None '']]
