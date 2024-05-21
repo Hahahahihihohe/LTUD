@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>441</width>
+    <width>509</width>
     <height>600</height>
    </rect>
   </property>
@@ -217,7 +217,7 @@ border-radius: 10px;
 color: rgb(20, 43, 36);
 }
 QPushButton#change_pw:hover{
-background-color : rgba(50, 119, 217, 0.851);
+background-color : rgb(69, 227, 144);
 }
 QPushButton#change_pw:pressed{
 padding-left : 4px;
@@ -229,6 +229,35 @@ background-color : rgba(23, 107, 145, 0.851);
       <string>Đổi mật khẩu</string>
      </property>
     </widget>
+    <widget class="QPushButton" name="back">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>28</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton#back{
+color :rgb(83, 78, 209);
+border-radius : 5px
+}
+QPushButton#back:hover{
+background-color: rgba(212, 181, 181, 0.729);
+}</string>
+     </property>
+     <property name="text">
+      <string>&lt;</string>
+     </property>
+    </widget>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
@@ -236,7 +265,7 @@ background-color : rgba(23, 107, 145, 0.851);
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>441</width>
+     <width>509</width>
      <height>26</height>
     </rect>
    </property>

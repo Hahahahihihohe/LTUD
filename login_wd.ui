@@ -238,7 +238,7 @@ border-radius: 10px;
 color: rgb(20, 43, 36);
 }
 QPushButton#register_0:hover{
-background-color : rgba(50, 119, 217, 0.851);
+background-color : rgb(69, 227, 144);
 }
 QPushButton#register_0:pressed{
 padding-left : 4px;

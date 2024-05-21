@@ -41,7 +41,10 @@ class register_wd(QMainWindow):
         super(register_wd,self).__init__()
         loadUi("register_wd.ui",self)
         self.register_1.clicked.connect(self.check_rgt)
-
+        self.back.clicked.connect(self.gobacklogin)
+    def gobacklogin(self):
+        widget.setCurrentIndex(0)
+#Kiểm tra thông tin đăng ký
     def check_rgt(self):
         ten = self.name.text()
         tuoi = self.age.text()
@@ -66,14 +69,17 @@ class test(QMainWindow):
     def __init__(self):
         super(test,self).__init__()
         loadUi("test.ui",self)
-
+#Cửa sổ quên mật khẩu
 class forgot_pw(QMainWindow):
     def __init__(self):
         self.login = Login()
         super(forgot_pw,self).__init__()
         loadUi("forgot_pw.ui",self)
         self.change_pw.clicked.connect(self.check_fgp)
-
+        self.back.clicked.connect(self.gobacklogin)
+    def gobacklogin(self):
+            widget.setCurrentIndex(0)
+#Kiểm tra tài khoản xem đã tồn tại hay chưa, nếu đã tồn tại thì cho phép đổi mật khẩu
     def check_fgp(self):
         taikhoan = self.User_old.text()
         mk_moi = self.pw_new.text()
@@ -92,6 +98,7 @@ class forgot_pw(QMainWindow):
         elif kt3 == 6:
             QMessageBox.information(self, "Thông báo", "Đổi mật khẩu thành công")
             widget.setCurrentIndex(0)
+
 app = QApplication(sys.argv)
 widget = QtWidgets.QStackedWidget()
 
