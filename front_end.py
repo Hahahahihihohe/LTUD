@@ -4,12 +4,13 @@ from PyQt5.uic import loadUi
 import sys
 
 from login import Login
-login = Login()
+from user import User
 #Cửa sổ đăng nhập
 class login_wd(QMainWindow):
     def __init__(self):
         super(login_wd,self).__init__()
         loadUi("login_wd.ui",self)
+        self.login = Login()
 
         self.register_0.clicked.connect(self.switch_register)
         self.login_btn.clicked.connect(self.check)
@@ -19,11 +20,11 @@ class login_wd(QMainWindow):
     def check(self):
         taikhoan = self.User.text()
         matkhau = self.Pass_word.text()
-        kt = login.check_pass(taikhoan, matkhau)
-        if kt:
+        kt = self.login.check_pass(taikhoan, matkhau)
+        if kt != 0:
             QMessageBox.information(self, "Thông báo", "Đăng nhập thành công")
             widget.setCurrentIndex(2)
-
+            id = kt
         else:
             QMessageBox.information(self, "Thông báo", "Sai tài khoản hoặc mật khẩu")
     #chuyển sang cửa sổ đăng ký
@@ -40,6 +41,8 @@ class register_wd(QMainWindow):
     def __init__(self):
         super(register_wd,self).__init__()
         loadUi("register_wd.ui",self)
+        self.login = Login()
+
         self.register_1.clicked.connect(self.check_rgt)
         self.back.clicked.connect(self.gobacklogin)
     def gobacklogin(self):
@@ -51,7 +54,7 @@ class register_wd(QMainWindow):
         tk = self.account.text()
         mk = self.pw.text()
         kt_mk = self.check_pw.text()
-        kt2 = login.create_acc(tk,mk,kt_mk,ten,tuoi)
+        kt2 = self.login.create_acc(tk,mk,kt_mk,ten,tuoi)
         if kt2==1:
             QMessageBox.information(self, "Thông báo", "Tài khoản này đã tồn tại")
         elif kt2==2:
@@ -74,6 +77,8 @@ class forgot_pw(QMainWindow):
     def __init__(self):
         super(forgot_pw,self).__init__()
         loadUi("forgot_pw.ui",self)
+        self.login = Login()
+
         self.change_pw.clicked.connect(self.check_fgp)
         self.back.clicked.connect(self.gobacklogin)
     def gobacklogin(self):
@@ -83,7 +88,7 @@ class forgot_pw(QMainWindow):
         taikhoan = self.User_old.text()
         mk_moi = self.pw_new.text()
         kt_mk_moi = self.pw_new2.text()
-        kt3 = login.forgot_pass(taikhoan,mk_moi,kt_mk_moi)
+        kt3 = self.login.forgot_pass(taikhoan,mk_moi,kt_mk_moi)
         if kt3 == 1:
             QMessageBox.information(self, "Thông báo", "Tài khoản không tồn tại")
         elif kt3 == 2:
@@ -103,6 +108,7 @@ class acc_info(QMainWindow):
         super(acc_info,self).__init__()
         loadUi("acc_info.ui",self)
 
+id = 0
 app = QApplication(sys.argv)
 widget = QtWidgets.QStackedWidget()
 
