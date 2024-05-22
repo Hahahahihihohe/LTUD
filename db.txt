@@ -29,6 +29,6 @@ CREATE TABLE order_history (
     user_id INT,
     movie_id INT,
     price INT,
-    time time
+    time varchar
 )
 """

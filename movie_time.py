@@ -18,6 +18,8 @@ class Movie_time():
         return seat #tra ve mang numpy nhin cho de
 
     def Update(self,picked_seat, user):
+        if user.GetMoney() < len(picked_seat) * 55000:
+            return False
         #picked_seat là một mảng numpy có shape (n,2), đặt n chỗ, mỗi chỗ gồm tọa độ (cot va hang)
         seat_list = list(self.seat)
         for i in range(picked_seat.shape[0]):
@@ -29,7 +31,12 @@ class Movie_time():
         sql = "INSERT INTO order_history (user_id, movie_id,price,time) VALUES (%s, %s, %s , %s)"
         db.execute(sql, [user.id, self.movie_id,55000 * len(picked_seat), str(datetime.now())])
         db.mydb.commit()
+        user.stinks(55000 * len(picked_seat))
+        sql = "update user_info set money = %s where id = %s"
+        db.execute(sql,[user.GetMoney(),user.id])
+        db.mydb.commit()
         print("Mua thanh cong")
+        return True
 class Booking_screen():
     def __init__(self):
         self.list = []

@@ -3,6 +3,7 @@ import numpy as np
 class User():
     #class set nguoi dung
     def __init__(self, id):
+        id = int(id)
         if id > 17:
             id += 1
         #ham khoi tao
@@ -60,7 +61,11 @@ class User():
         sql = """
         SELECT * from order_history where user_id = %s
         """
-        res = np.array(db.fetchall(sql,[self.id]))
+        res = db.fetchall(sql,[self.id])
+        if not res:
+            return False
+        else:
+            res = np.array(res)
         return res
 
     def change_pass(self,password, con_pass):
