@@ -2,13 +2,19 @@ from database import db
 import numpy as np
 class User():
     #class set nguoi dung
-    def __init__(self, id):
+    def __init__(self):
+        self.id = None
+        self.name = None
+        self.age = None
+        self.money = None
+
+    def update_info(self,id):
         id = int(id)
         if id > 17:
             id += 1
-        #ham khoi tao
+        # ham khoi tao
         sql = "select * from user_info where id = %s"
-        res = db.fetchone(sql,[id])
+        res = db.fetchone(sql, [id])
         self.id = res[0]
         self.name = res[1]
         self.age = res[2]
