@@ -1,45 +1,65 @@
 from database import db
 import numpy as np
-
+from datetime import datetime
 class Movie_time():
+    def __init__(self, id, name, day, hour , seat):
+        self.id = id
+        self.movie_id = None
+        self.name = name
+        self.day = day
+        self.hour = hour
+        self.seat = seat
+
+    def GetBookingState(self):
+        seat = np.zeros((10,10))
+        for i in range(seat.shape[0]):
+            for j in range(seat.shape[1]):
+                seat[i][j] = self.seat[i*10 + j]
+        return seat #tra ve mang numpy nhin cho de
+
+    def Update(self,picked_seat, user):
+        #picked_seat là một mảng numpy có shape (n,2), đặt n chỗ, mỗi chỗ gồm tọa độ (cot va hang)
+        seat_list = list(self.seat)
+        for i in range(picked_seat.shape[0]):
+            seat_list[picked_seat[i][0]*10 + picked_seat[i][1]] = '1'
+        self.seat = ''.join(seat_list)
+        sql = "update movie_time set seat = %s where id = %s"
+        db.execute(sql, [self.seat, self.id])
+        db.mydb.commit()
+        sql = "INSERT INTO order_history (user_id, movie_id,price,time) VALUES (%s, %s, %s , %s)"
+        db.execute(sql, [user.id, self.movie_id,55000 * len(picked_seat), str(datetime.now())])
+        db.mydb.commit()
+        print("Mua thanh cong")
+class Booking_screen():
     def __init__(self):
-        self.id = None
-        self.name = None
-        self.day = None
-        self.hour = None
-        self.seat = None
+        self.list = []
+        self.ShowAll()
 
     def ShowAll(self):
         #Hiển thị toàn bộ lịch chiếu phim
         sql = "select * from movie_time"
         res = np.array(db.fetchall(sql))
-        return res
+
+        for i in res:
+            id , movie_id, day, hour, seat = i
+            sql = "select TENPHIM from movie where ID = %s"
+            res = db.fetchone(sql,[movie_id])
+            movie_time = Movie_time(id, res, day, hour, seat)
+            movie_time.movie_id = movie_id
+            self.list.append(movie_time)
+
 
     def ShowMovieTime(self,movie_id):
         # hiển thị toàn bộ lịch chiếu của phim đó
-        sql = "select * from movie_time where movie_id = %s"
-        res = np.array(db.fetchall(sql,[movie_id]))
-        return res
+        list1 = []
+        for i in self.list:
+            if i.movie_id == str(movie_id):
 
-    def GetBookingState(self,id):
-        sql = "select * from movie_time where id = %s"
-        res = np.array(db.fetchone(sql, [id]))
-        self.id = res[0]
-        self.name = None #cai nay lam xong database movie thi tinh
-        self.day = res[2]
-        self.hour = res[3]
-        self.seat = res[4]
-        seat = np.zeros((10,10))
-        for i in range(seat.shape[0]):
-            for j in range(seat.shape[1]):
-                seat[i][j] = self.seat[i*10 + j]
+                list1.append(i)
 
-        return seat #tra ve mang numpy nhin cho de
+        return list1
 
-    def Update(self,picked_seat):
-        #picked_seat là một mảng numpy có shape (n,2), đặt n chỗ, mỗi chỗ gồm tọa độ (cot va hang)
-        for i in range(picked_seat.shape[0]):
-            self.seat[picked_seat[0]*10 + picked_seat[1]] = 1
-        sql = "update movie_time set password = %s where id = %s"
-        db.execute(sql, [self.seat, self.user])
-        db.mydb.commit()
+    def GetMovie(self,id):
+        for i in self.list:
+            if i.id == str(id):
+                return i

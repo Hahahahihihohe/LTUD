@@ -23,3 +23,12 @@ user_info
  ['THELOAI' 'char(255)' 'NO' '' None '']
  ['TUOI' 'int' 'NO' '' None '']
  ['image' 'longblob' 'YES' '' None '']]
+ """
+CREATE TABLE order_history (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    user_id INT,
+    movie_id INT,
+    price INT,
+    time time
+)
+"""

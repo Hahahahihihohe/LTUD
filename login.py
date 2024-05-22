@@ -11,7 +11,7 @@ class Login():
         res = db.fetchone(sql,(user,))
         if res:
             if res[2] == password and res[1] == user:
-                return True
+                return res[0]
             else:
                 return False
         else:
