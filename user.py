@@ -55,6 +55,10 @@ class User():
         if amount > 5000000:
             return False
         self.SetMoney(self.GetMoney() + amount)
+        sql = "update user_info set money = %s where id = %s"
+        db.execute(sql, [self.GetMoney(), self.id])
+        db.mydb.commit()
+        print("nap thanh cong")
         return True
 
     def stinks(self,amount):
@@ -65,7 +69,7 @@ class User():
 
     def Getorder(self):
         sql = """
-        SELECT * from order_history where user_id = %s
+        SELECT movie_name, price, time from order_history where user_id = %s
         """
         res = db.fetchall(sql,[self.id])
         if not res:

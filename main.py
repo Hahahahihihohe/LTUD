@@ -5,7 +5,10 @@ import numpy as np
 from user import User
 from main_scr import Mainscreen,Movie
 from movie_time import Booking_screen,Movie_time
-user = User(3)
+user = User()
+user.update_info(3)
+print(user.GetMoney())
+
 
 
 

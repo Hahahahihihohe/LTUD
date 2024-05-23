@@ -27,8 +27,8 @@ user_info
 CREATE TABLE order_history (
     id INT AUTO_INCREMENT PRIMARY KEY,
     user_id INT,
-    movie_id INT,
     price INT,
-    time varchar
+    time varchar,
+    movie_name varchar
 )
 """

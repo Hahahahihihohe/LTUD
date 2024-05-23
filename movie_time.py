@@ -19,6 +19,7 @@ class Movie_time():
 
     def Update(self,picked_seat, user):
         if user.GetMoney() < len(picked_seat) * 55000:
+            print("khong du tien")
             return False
         #picked_seat là một mảng numpy có shape (n,2), đặt n chỗ, mỗi chỗ gồm tọa độ (cot va hang)
         seat_list = list(self.seat)
@@ -28,8 +29,8 @@ class Movie_time():
         sql = "update movie_time set seat = %s where id = %s"
         db.execute(sql, [self.seat, self.id])
         db.mydb.commit()
-        sql = "INSERT INTO order_history (user_id, movie_id,price,time) VALUES (%s, %s, %s , %s)"
-        db.execute(sql, [user.id, self.movie_id,55000 * len(picked_seat), str(datetime.now())])
+        sql = "INSERT INTO order_history (user_id, movie_name,price,time) VALUES (%s, %s, %s , %s)"
+        db.execute(sql, [user.id, self.name[0],55000 * len(picked_seat), str(datetime.now())])
         db.mydb.commit()
         user.stinks(55000 * len(picked_seat))
         sql = "update user_info set money = %s where id = %s"
