@@ -78,6 +78,8 @@ class acc_info(QMainWindow):
         self.add_money.clicked.connect(self.switch_money)
         self.user = User()
         self.change_pw.clicked.connect(self.switch_changepw_wd)
+        self.change_info.clicked.connect(self.switch_changeinfo_wd)
+        self.logout.clicked.connect(self.switch_login)
 
     def switch_user(self):
         self.stackedWidget.setCurrentIndex(0)
@@ -99,6 +101,10 @@ class acc_info(QMainWindow):
 
     def switch_changepw_wd(self):
         widget.setCurrentIndex(4)
+    def switch_changeinfo_wd(self):
+        widget.setCurrentIndex(5)
+    def switch_login(self):
+        widget.setCurrentIndex(0)
 
 # Cửa sổ quên mật khẩu(3)
 class forgot_pw(QMainWindow):
@@ -149,6 +155,37 @@ class change_password(QMainWindow):
             widget.setCurrentIndex(2)
     def switch_accinfo(self):
         widget.setCurrentIndex(2)
+
+#Cửa sổ thay đổi thông tin (5)
+class change_info_wd(QMainWindow):
+    def __init__(self):
+        super(change_info_wd, self).__init__()
+        loadUi("change_info_wd.ui", self)
+        self.save_btn.clicked.connect(self.save_info)
+        self.back.clicked.connect(self.switch_accinfo)
+
+    def save_info(self):
+        name = self.change_name.text()
+        age = self.change_age.text()
+
+        if not name or not age:
+            QMessageBox.information(self, "Thông báo", "Vui lòng nhập đầy đủ thông tin")
+            return
+
+        try:
+            age = int(age)
+        except ValueError:
+            QMessageBox.information(self, "Thông báo", "Tuổi phải là số")
+            return
+
+        acc_info_f.user.change_info(name, age)
+        QMessageBox.information(self, "Thông báo", "Cập nhật thông tin thành công")
+        acc_info_f.show()  # Hiển thị lại thông tin cập nhật
+        widget.setCurrentIndex(2)
+
+    def switch_accinfo(self):
+        widget.setCurrentIndex(2)
+
 
 app = QApplication(sys.argv)
 widget = QStackedWidget()
