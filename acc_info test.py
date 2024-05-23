@@ -13,9 +13,6 @@ class acc_info(QMainWindow):
         self.acc_info.clicked.connect(self.switch_user)
         self.trading_history.clicked.connect(self.switch_his)
         self.add_money.clicked.connect(self.switch_money)
-        self.user = User(id)
-
-
 
     def switch_user(self):
         self.stackedWidget.setCurrentIndex(0)
