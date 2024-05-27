@@ -85,6 +85,7 @@ class acc_info(QMainWindow):
         self.logout.clicked.connect(self.switch_login)
         self.combo_box = QtWidgets.QComboBox()
         self.connect_combo_box()
+        self.nt_btn.clicked.connect(self.nap_tien)
 
     def switch_user(self):
         self.stackedWidget.setCurrentIndex(0)
@@ -118,7 +119,6 @@ class acc_info(QMainWindow):
     def connect_combo_box(self):
         self.combo_box.currentIndexChanged.connect(self.handle_combo_box_change)
 
-    # Trong phương thức handle_combo_box_change của lớp acc_info:
     def handle_combo_box_change(self, index):
         selected_value = self.nt.currentText()
 
@@ -136,6 +136,19 @@ class acc_info(QMainWindow):
         else:
             self.stonks(2000000)
 
+    # Trong hàm kích hoạt của nút nạp tiền
+    def nap_tien(self):
+        # Xác định số tiền cần nạp từ combobox hoặc text box
+        amount = self.nt.currentText()  # Ví dụ: Lấy số tiền từ combobox
+
+        # Chuyển đổi số tiền từ kiểu str sang kiểu int hoặc float nếu cần thiết
+        amount = float(amount)  # Ví dụ: Chuyển đổi sang kiểu float
+
+        # Gọi phương thức stonks() với số tiền cần nạp
+        self.user.stonks(amount)
+
+        # Cập nhật giao diện người dùng nếu cần thiết
+        self.cur_money.setText(str(self.user.GetMoney()))  # Cập nhật số tiền mới trên giao diện
 
 
 # Cửa sổ quên mật khẩu(3)

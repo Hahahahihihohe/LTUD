@@ -437,7 +437,7 @@ border-radius : 10px</string>
        <property name="geometry">
         <rect>
          <x>20</x>
-         <y>150</y>
+         <y>130</y>
          <width>291</width>
          <height>41</height>
         </rect>
@@ -458,7 +458,7 @@ border-radius : 10px</string>
        <property name="geometry">
         <rect>
          <x>20</x>
-         <y>220</y>
+         <y>200</y>
          <width>291</width>
          <height>41</height>
         </rect>
@@ -537,6 +537,29 @@ border-radius : 10px</string>
        </property>
        <property name="text">
         <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="nt_btn">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>270</y>
+         <width>121</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 0, 0);
+color: rgb(255,255,255);
+border-radius : 10px</string>
+       </property>
+       <property name="text">
+        <string>Nạp tiền</string>
        </property>
       </widget>
      </widget>
