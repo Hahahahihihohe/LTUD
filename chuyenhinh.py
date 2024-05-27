@@ -1,4 +1,4 @@
-from hi import Ui_MainWindow
+from trangchu import Ui_MainWindow
 from PyQt5.QtWidgets import QMessageBox, QMainWindow, QWidget, QApplication, QPushButton, QStackedWidget
 from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtCore import QTimer
