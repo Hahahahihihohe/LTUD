@@ -45,15 +45,13 @@ class User():
         print(self.id,self.name,self.age,self.money)
 
     def change_info(self,name, age):
-        sql = "update user_info set name = %s and age = %s where id = %s"
+        sql = "update user_info set name = %s , age = %s where id = %s"
         db.execute(sql, [name, age, self.id])
         db.mydb.commit()
         self.SetName(name)
         self.SetAge(age)
 
     def stonks(self,amount):
-        if amount > 5000000:
-            return False
         self.SetMoney(self.GetMoney() + amount)
         sql = "update user_info set money = %s where id = %s"
         db.execute(sql, [self.GetMoney(), self.id])

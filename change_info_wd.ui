@@ -96,15 +96,15 @@ padding-bottom: 5px;
       <cursorShape>PointingHandCursor</cursorShape>
      </property>
      <property name="styleSheet">
-      <string notr="true">QPushButton#chg_pw{
+      <string notr="true">QPushButton#save_btn{
 background-color: rgba(92, 99, 232, 0.851);
 border-radius: 10px;
 color: rgb(20, 43, 36);
 }
-QPushButton#chg_pw:hover{
+QPushButton#save_btn:hover{
 background-color : rgb(69, 227, 144);
 }
-QPushButton#chg_pw:pressed{
+QPushButton#save_btn:pressed{
 padding-left : 4px;
 padding-top : 4px;
 background-color : rgba(23, 107, 145, 0.851);
@@ -159,7 +159,7 @@ color: rgb(20, 43, 36);
 padding-bottom: 5px;</string>
      </property>
      <property name="placeholderText">
-      <string>  Name</string>
+      <string>Name</string>
      </property>
     </widget>
     <widget class="QLineEdit" name="change_age_2">
@@ -178,7 +178,7 @@ color: rgb(20, 43, 36);
 padding-bottom: 5px;</string>
      </property>
      <property name="placeholderText">
-      <string>  Age</string>
+      <string>Age</string>
      </property>
     </widget>
    </widget>

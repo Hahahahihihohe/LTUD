@@ -194,7 +194,7 @@ border-radius : 10px</string>
       </rect>
      </property>
      <property name="currentIndex">
-      <number>0</number>
+      <number>2</number>
      </property>
      <widget class="QWidget" name="page">
       <widget class="QLabel" name="user_name">
@@ -432,7 +432,114 @@ border-radius : 10px</string>
        </column>
       </widget>
      </widget>
-     <widget class="QWidget" name="page_3"/>
+     <widget class="QWidget" name="page_3">
+      <widget class="QLabel" name="label_2">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>150</y>
+         <width>291</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255,255,255)</string>
+       </property>
+       <property name="text">
+        <string>Chọn mệnh giá muốn nạp</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="nt">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>220</y>
+         <width>291</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255,255,255)</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>50000</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>100000</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>200000</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>500000</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>1000000</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>2000000</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QLabel" name="label_3">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>30</y>
+         <width>161</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255,255,255)</string>
+       </property>
+       <property name="text">
+        <string>Số tiền hiện tại </string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="cur_money">
+       <property name="geometry">
+        <rect>
+         <x>280</x>
+         <y>25</y>
+         <width>161</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255,255,255)</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </widget>
     </widget>
     <widget class="QPushButton" name="logout">
      <property name="geometry">

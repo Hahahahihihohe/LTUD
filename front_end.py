@@ -2,7 +2,7 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtWidgets import QMessageBox, QMainWindow, QWidget, QApplication, QStackedWidget
 from PyQt5.uic import loadUi
 import sys
-
+from database import db
 from login import Login
 from user import User
 
@@ -26,7 +26,10 @@ class login_wd(QMainWindow):
             QMessageBox.information(self, "Thông báo", "Đăng nhập thành công")
             acc_info_f.user.update_info(kt)  # Cập nhật thông tin người dùng
             acc_info_f.show()  # Hiển thị cửa sổ thông tin tài khoản
+
             widget.setCurrentIndex(2)
+            acc_info_f.show3()  # Hiển thị cửa sổ thông tin tài khoản
+
         else:
             QMessageBox.information(self, "Thông báo", "Sai tài khoản hoặc mật khẩu")
 
@@ -80,6 +83,8 @@ class acc_info(QMainWindow):
         self.change_pw.clicked.connect(self.switch_changepw_wd)
         self.change_info.clicked.connect(self.switch_changeinfo_wd)
         self.logout.clicked.connect(self.switch_login)
+        self.combo_box = QtWidgets.QComboBox()
+        self.connect_combo_box()
 
     def switch_user(self):
         self.stackedWidget.setCurrentIndex(0)
@@ -95,9 +100,13 @@ class acc_info(QMainWindow):
         self.user_name_2.setText(self.user.GetName())
         self.user_age_2.setText(str(self.user.GetAge()))
         self.user_money_2.setText(str(self.user.GetMoney()))
-
-        # Hiển thị cửa sổ
         super().show()
+
+    def show3(self):
+        self.cur_money.setText(str(self.user.GetMoney()))
+        super().show()
+        # Hiển thị cửa sổ
+
 
     def switch_changepw_wd(self):
         widget.setCurrentIndex(4)
@@ -105,6 +114,29 @@ class acc_info(QMainWindow):
         widget.setCurrentIndex(5)
     def switch_login(self):
         widget.setCurrentIndex(0)
+
+    def connect_combo_box(self):
+        self.combo_box.currentIndexChanged.connect(self.handle_combo_box_change)
+
+    # Trong phương thức handle_combo_box_change của lớp acc_info:
+    def handle_combo_box_change(self, index):
+        selected_value = self.nt.currentText()
+
+        # Sử dụng if-elif-else để xử lý từng giá trị của Combobox
+        if selected_value == "50000":
+            self.stonks(50000)
+        elif selected_value == "100000":
+            self.stonks(100000)
+        elif selected_value == "200000":
+            self.stonks(200000)
+        elif selected_value == "100000":
+            self.stonks(500000)
+        elif selected_value == "500000":
+            self.stonks(1000000)
+        else:
+            self.stonks(2000000)
+
+
 
 # Cửa sổ quên mật khẩu(3)
 class forgot_pw(QMainWindow):
@@ -165,22 +197,13 @@ class change_info_wd(QMainWindow):
         self.back.clicked.connect(self.switch_accinfo)
 
     def save_info(self):
-        name = self.change_name.text()
-        age = self.change_age.text()
+        name = self.change_name_2.text()
+        age_text = self.change_age_2.text()
 
-        if not name or not age:
-            QMessageBox.information(self, "Thông báo", "Vui lòng nhập đầy đủ thông tin")
-            return
-
-        try:
-            age = int(age)
-        except ValueError:
-            QMessageBox.information(self, "Thông báo", "Tuổi phải là số")
-            return
-
-        acc_info_f.user.change_info(name, age)
+        acc_info_f.user.change_info(name,age_text)
+        # Hiển thị thông báo và chuyển đổi sang cửa sổ thông tin cá nhân
         QMessageBox.information(self, "Thông báo", "Cập nhật thông tin thành công")
-        acc_info_f.show()  # Hiển thị lại thông tin cập nhật
+        acc_info_f.show()
         widget.setCurrentIndex(2)
 
     def switch_accinfo(self):
@@ -195,11 +218,13 @@ register_f = register_wd()
 acc_info_f = acc_info()
 forgot_f = forgot_pw()
 change_password_f = change_password()
+change_info_wd_f = change_info_wd()
 widget.addWidget(login_f)
 widget.addWidget(register_f)
 widget.addWidget(acc_info_f)
 widget.addWidget(forgot_f)
 widget.addWidget(change_password_f)
+widget.addWidget(change_info_wd_f)
 
 widget.setCurrentIndex(0)
 widget.setFixedWidth(800)
