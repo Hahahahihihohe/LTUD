@@ -136,19 +136,21 @@ class acc_info(QMainWindow):
         else:
             self.stonks(2000000)
 
-    # Trong hàm kích hoạt của nút nạp tiền
+    def update_money_display(self):
+        self.user_money_2.setText(str(self.user.GetMoney()))  # Cập nhật số tiền ở stackedwidget 1
+        self.cur_money.setText(str(self.user.GetMoney()))  # Cập nhật số tiền ở stackedwidget 3
     def nap_tien(self):
         # Xác định số tiền cần nạp từ combobox hoặc text box
         amount = self.nt.currentText()  # Ví dụ: Lấy số tiền từ combobox
 
         # Chuyển đổi số tiền từ kiểu str sang kiểu int hoặc float nếu cần thiết
-        amount = float(amount)  # Ví dụ: Chuyển đổi sang kiểu float
+        amount = int(amount)  # Ví dụ: Chuyển đổi sang kiểu float
 
         # Gọi phương thức stonks() với số tiền cần nạp
         self.user.stonks(amount)
 
         # Cập nhật giao diện người dùng nếu cần thiết
-        self.cur_money.setText(str(self.user.GetMoney()))  # Cập nhật số tiền mới trên giao diện
+        self.update_money_display()  # Cập nhật số tiền mới trên tất cả các giao diện cần thiết
 
 
 # Cửa sổ quên mật khẩu(3)
