@@ -1,0 +1,1006 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1108</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QScrollArea" name="scrollArea">
+      <property name="widgetResizable">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="scrollAreaWidgetContents">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>-224</y>
+         <width>1085</width>
+         <height>1022</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_4">
+        <item>
+         <widget class="QFrame" name="frame">
+          <property name="minimumSize">
+           <size>
+            <width>1000</width>
+            <height>1000</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(62, 62, 62);</string>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <property name="lineWidth">
+           <number>0</number>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout">
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QScrollArea" name="scrollArea_2">
+             <property name="widgetResizable">
+              <bool>true</bool>
+             </property>
+             <widget class="QWidget" name="scrollAreaWidgetContents_2">
+              <property name="geometry">
+               <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>1059</width>
+                <height>996</height>
+               </rect>
+              </property>
+              <widget class="QPushButton" name="lichchieu">
+               <property name="geometry">
+                <rect>
+                 <x>770</x>
+                 <y>40</y>
+                 <width>200</width>
+                 <height>90</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>LỊCH CHIẾU</string>
+               </property>
+               <property name="checkable">
+                <bool>false</bool>
+               </property>
+              </widget>
+              <widget class="QPushButton" name="thanhvien">
+               <property name="geometry">
+                <rect>
+                 <x>520</x>
+                 <y>40</y>
+                 <width>200</width>
+                 <height>90</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>THÀNH VIÊN</string>
+               </property>
+               <property name="checkable">
+                <bool>false</bool>
+               </property>
+               <property name="autoRepeat">
+                <bool>true</bool>
+               </property>
+              </widget>
+              <widget class="QStackedWidget" name="stackedWidget">
+               <property name="geometry">
+                <rect>
+                 <x>11</x>
+                 <y>151</y>
+                 <width>979</width>
+                 <height>834</height>
+                </rect>
+               </property>
+               <property name="currentIndex">
+                <number>0</number>
+               </property>
+               <widget class="QWidget" name="trangchu_page">
+                <widget class="QStackedWidget" name="stackedWidget_2">
+                 <property name="geometry">
+                  <rect>
+                   <x>170</x>
+                   <y>20</y>
+                   <width>641</width>
+                   <height>381</height>
+                  </rect>
+                 </property>
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/newPrefix/phim-chieu-rap-anh-14.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="currentIndex">
+                  <number>0</number>
+                 </property>
+                 <widget class="QWidget" name="page_7">
+                  <widget class="QLabel" name="label">
+                   <property name="geometry">
+                    <rect>
+                     <x>320</x>
+                     <y>20</y>
+                     <width>291</width>
+                     <height>271</height>
+                    </rect>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                   <property name="pixmap">
+                    <pixmap>E:/a/tải xuống (3).jpg</pixmap>
+                   </property>
+                   <property name="scaledContents">
+                    <bool>true</bool>
+                   </property>
+                  </widget>
+                  <widget class="QLabel" name="label_4">
+                   <property name="geometry">
+                    <rect>
+                     <x>20</x>
+                     <y>300</y>
+                     <width>271</width>
+                     <height>16</height>
+                    </rect>
+                   </property>
+                   <property name="text">
+                    <string>CONAN                            </string>
+                   </property>
+                  </widget>
+                  <widget class="QPushButton" name="pushButton">
+                   <property name="geometry">
+                    <rect>
+                     <x>100</x>
+                     <y>360</y>
+                     <width>93</width>
+                     <height>28</height>
+                    </rect>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">color: rgb(0, 85, 255);
+background-color: rgb(85, 85, 255);</string>
+                   </property>
+                   <property name="text">
+                    <string>ĐẶT VÉ</string>
+                   </property>
+                  </widget>
+                  <widget class="QLabel" name="label_7">
+                   <property name="geometry">
+                    <rect>
+                     <x>10</x>
+                     <y>20</y>
+                     <width>271</width>
+                     <height>271</height>
+                    </rect>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                   <property name="pixmap">
+                    <pixmap>E:/a/images.jpg</pixmap>
+                   </property>
+                   <property name="scaledContents">
+                    <bool>true</bool>
+                   </property>
+                  </widget>
+                  <widget class="QPushButton" name="pushButton_3">
+                   <property name="geometry">
+                    <rect>
+                     <x>410</x>
+                     <y>350</y>
+                     <width>93</width>
+                     <height>28</height>
+                    </rect>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">color: rgb(0, 85, 255);
+background-color: rgb(85, 85, 255);</string>
+                   </property>
+                   <property name="text">
+                    <string>ĐẶT VÉ</string>
+                   </property>
+                  </widget>
+                 </widget>
+                 <widget class="QWidget" name="page_8">
+                  <widget class="QLabel" name="label_5">
+                   <property name="geometry">
+                    <rect>
+                     <x>110</x>
+                     <y>40</y>
+                     <width>261</width>
+                     <height>161</height>
+                    </rect>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                   <property name="pixmap">
+                    <pixmap>E:/a/tải xuống (1).png</pixmap>
+                   </property>
+                   <property name="scaledContents">
+                    <bool>true</bool>
+                   </property>
+                  </widget>
+                  <widget class="QPushButton" name="pushButton_2">
+                   <property name="geometry">
+                    <rect>
+                     <x>180</x>
+                     <y>270</y>
+                     <width>91</width>
+                     <height>28</height>
+                    </rect>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">color: rgb(0, 85, 255);
+background-color: rgb(85, 85, 255);</string>
+                   </property>
+                   <property name="text">
+                    <string>ĐẶT VÉ</string>
+                   </property>
+                  </widget>
+                  <widget class="QLabel" name="label_6">
+                   <property name="geometry">
+                    <rect>
+                     <x>100</x>
+                     <y>200</y>
+                     <width>301</width>
+                     <height>51</height>
+                    </rect>
+                   </property>
+                   <property name="text">
+                    <string>PHIM BOSS</string>
+                   </property>
+                  </widget>
+                 </widget>
+                </widget>
+                <widget class="QPushButton" name="phai">
+                 <property name="geometry">
+                  <rect>
+                   <x>850</x>
+                   <y>150</y>
+                   <width>71</width>
+                   <height>71</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="checkable">
+                  <bool>false</bool>
+                 </property>
+                 <property name="autoRepeat">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_2">
+                 <property name="geometry">
+                  <rect>
+                   <x>850</x>
+                   <y>150</y>
+                   <width>71</width>
+                   <height>71</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="pixmap">
+                  <pixmap>C:/Users/hieun/Downloads/right.png.svg</pixmap>
+                 </property>
+                 <property name="scaledContents">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_3">
+                 <property name="geometry">
+                  <rect>
+                   <x>80</x>
+                   <y>170</y>
+                   <width>71</width>
+                   <height>71</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="pixmap">
+                  <pixmap>C:/Users/hieun/Downloads/left-arrow.png</pixmap>
+                 </property>
+                 <property name="scaledContents">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+                <widget class="QPushButton" name="trai">
+                 <property name="geometry">
+                  <rect>
+                   <x>80</x>
+                   <y>170</y>
+                   <width>71</width>
+                   <height>71</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                </widget>
+                <widget class="QStackedWidget" name="stackedWidget_3">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>420</y>
+                   <width>981</width>
+                   <height>351</height>
+                  </rect>
+                 </property>
+                 <property name="currentIndex">
+                  <number>0</number>
+                 </property>
+                 <widget class="QWidget" name="page">
+                  <widget class="QWidget" name="widget_3" native="true">
+                   <property name="geometry">
+                    <rect>
+                     <x>9</x>
+                     <y>50</y>
+                     <width>941</width>
+                     <height>121</height>
+                    </rect>
+                   </property>
+                   <widget class="QLabel" name="phim1">
+                    <property name="geometry">
+                     <rect>
+                      <x>300</x>
+                      <y>0</y>
+                      <width>231</width>
+                      <height>41</height>
+                     </rect>
+                    </property>
+                    <property name="text">
+                     <string>TextLabel</string>
+                    </property>
+                   </widget>
+                   <widget class="QLabel" name="anh1">
+                    <property name="geometry">
+                     <rect>
+                      <x>30</x>
+                      <y>0</y>
+                      <width>180</width>
+                      <height>110</height>
+                     </rect>
+                    </property>
+                    <property name="text">
+                     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/newPrefix/phim-chieu-rap-anh-14.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                    </property>
+                   </widget>
+                   <widget class="QLabel" name="phim1_2">
+                    <property name="geometry">
+                     <rect>
+                      <x>300</x>
+                      <y>30</y>
+                      <width>231</width>
+                      <height>41</height>
+                     </rect>
+                    </property>
+                    <property name="text">
+                     <string>TextLabel</string>
+                    </property>
+                   </widget>
+                   <widget class="QPushButton" name="pushButton_8">
+                    <property name="geometry">
+                     <rect>
+                      <x>460</x>
+                      <y>90</y>
+                      <width>93</width>
+                      <height>28</height>
+                     </rect>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">
+color: rgb(0, 0, 0);
+background-color: rgb(85, 85, 255);</string>
+                    </property>
+                    <property name="text">
+                     <string>ĐẶT VÉ</string>
+                    </property>
+                   </widget>
+                   <widget class="QLabel" name="label_8">
+                    <property name="geometry">
+                     <rect>
+                      <x>230</x>
+                      <y>10</y>
+                      <width>71</width>
+                      <height>21</height>
+                     </rect>
+                    </property>
+                    <property name="text">
+                     <string>TÊN PHIM :</string>
+                    </property>
+                   </widget>
+                   <widget class="QLabel" name="label_10">
+                    <property name="geometry">
+                     <rect>
+                      <x>230</x>
+                      <y>40</y>
+                      <width>71</width>
+                      <height>21</height>
+                     </rect>
+                    </property>
+                    <property name="text">
+                     <string>THỂ LOẠI :</string>
+                    </property>
+                   </widget>
+                   <widget class="QPushButton" name="chuyenphim">
+                    <property name="geometry">
+                     <rect>
+                      <x>230</x>
+                      <y>10</y>
+                      <width>391</width>
+                      <height>28</height>
+                     </rect>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+                    </property>
+                    <property name="text">
+                     <string/>
+                    </property>
+                   </widget>
+                   <widget class="QPushButton" name="chuyenhinhanh">
+                    <property name="geometry">
+                     <rect>
+                      <x>30</x>
+                      <y>0</y>
+                      <width>180</width>
+                      <height>110</height>
+                     </rect>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+                    </property>
+                    <property name="text">
+                     <string/>
+                    </property>
+                   </widget>
+                  </widget>
+                  <widget class="QWidget" name="widget_4" native="true">
+                   <property name="geometry">
+                    <rect>
+                     <x>10</x>
+                     <y>190</y>
+                     <width>941</width>
+                     <height>121</height>
+                    </rect>
+                   </property>
+                   <widget class="QLabel" name="anh2">
+                    <property name="geometry">
+                     <rect>
+                      <x>30</x>
+                      <y>0</y>
+                      <width>180</width>
+                      <height>110</height>
+                     </rect>
+                    </property>
+                    <property name="text">
+                     <string>TextLabel</string>
+                    </property>
+                   </widget>
+                   <widget class="QPushButton" name="pushButton_5">
+                    <property name="geometry">
+                     <rect>
+                      <x>460</x>
+                      <y>90</y>
+                      <width>93</width>
+                      <height>28</height>
+                     </rect>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">
+color: rgb(0, 0, 0);
+background-color: rgb(85, 85, 255);</string>
+                    </property>
+                    <property name="text">
+                     <string>ĐẶT VÉ</string>
+                    </property>
+                   </widget>
+                   <widget class="QLabel" name="phim2_1">
+                    <property name="geometry">
+                     <rect>
+                      <x>300</x>
+                      <y>30</y>
+                      <width>231</width>
+                      <height>41</height>
+                     </rect>
+                    </property>
+                    <property name="text">
+                     <string>TextLabel</string>
+                    </property>
+                   </widget>
+                   <widget class="QLabel" name="phim2">
+                    <property name="geometry">
+                     <rect>
+                      <x>300</x>
+                      <y>0</y>
+                      <width>231</width>
+                      <height>41</height>
+                     </rect>
+                    </property>
+                    <property name="text">
+                     <string>TextLabel</string>
+                    </property>
+                   </widget>
+                   <widget class="QLabel" name="label_9">
+                    <property name="geometry">
+                     <rect>
+                      <x>230</x>
+                      <y>10</y>
+                      <width>71</width>
+                      <height>21</height>
+                     </rect>
+                    </property>
+                    <property name="text">
+                     <string>TÊN PHIM :</string>
+                    </property>
+                   </widget>
+                   <widget class="QLabel" name="label_11">
+                    <property name="geometry">
+                     <rect>
+                      <x>230</x>
+                      <y>40</y>
+                      <width>71</width>
+                      <height>21</height>
+                     </rect>
+                    </property>
+                    <property name="text">
+                     <string>THỂ LOẠI :</string>
+                    </property>
+                   </widget>
+                  </widget>
+                 </widget>
+                 <widget class="QWidget" name="page_3">
+                  <widget class="QWidget" name="widget_5" native="true">
+                   <property name="geometry">
+                    <rect>
+                     <x>9</x>
+                     <y>50</y>
+                     <width>941</width>
+                     <height>121</height>
+                    </rect>
+                   </property>
+                   <widget class="QLabel" name="phim1_3">
+                    <property name="geometry">
+                     <rect>
+                      <x>270</x>
+                      <y>0</y>
+                      <width>231</width>
+                      <height>41</height>
+                     </rect>
+                    </property>
+                    <property name="text">
+                     <string>TextLabel</string>
+                    </property>
+                   </widget>
+                   <widget class="QLabel" name="anh1_2">
+                    <property name="geometry">
+                     <rect>
+                      <x>30</x>
+                      <y>0</y>
+                      <width>180</width>
+                      <height>110</height>
+                     </rect>
+                    </property>
+                    <property name="text">
+                     <string>TextLabel</string>
+                    </property>
+                   </widget>
+                   <widget class="QLabel" name="phim1_4">
+                    <property name="geometry">
+                     <rect>
+                      <x>270</x>
+                      <y>30</y>
+                      <width>231</width>
+                      <height>41</height>
+                     </rect>
+                    </property>
+                    <property name="text">
+                     <string>TextLabel</string>
+                    </property>
+                   </widget>
+                   <widget class="QPushButton" name="pushButton_9">
+                    <property name="geometry">
+                     <rect>
+                      <x>460</x>
+                      <y>90</y>
+                      <width>93</width>
+                      <height>28</height>
+                     </rect>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">
+color: rgb(0, 0, 0);
+background-color: rgb(85, 85, 255);</string>
+                    </property>
+                    <property name="text">
+                     <string>ĐẶT VÉ</string>
+                    </property>
+                   </widget>
+                  </widget>
+                  <widget class="QWidget" name="widget_6" native="true">
+                   <property name="geometry">
+                    <rect>
+                     <x>10</x>
+                     <y>190</y>
+                     <width>941</width>
+                     <height>121</height>
+                    </rect>
+                   </property>
+                   <widget class="QLabel" name="phim1_5">
+                    <property name="geometry">
+                     <rect>
+                      <x>270</x>
+                      <y>0</y>
+                      <width>231</width>
+                      <height>41</height>
+                     </rect>
+                    </property>
+                    <property name="text">
+                     <string>TextLabel</string>
+                    </property>
+                   </widget>
+                   <widget class="QLabel" name="anh1_3">
+                    <property name="geometry">
+                     <rect>
+                      <x>30</x>
+                      <y>0</y>
+                      <width>180</width>
+                      <height>110</height>
+                     </rect>
+                    </property>
+                    <property name="text">
+                     <string>TextLabel</string>
+                    </property>
+                   </widget>
+                   <widget class="QLabel" name="phim1_6">
+                    <property name="geometry">
+                     <rect>
+                      <x>270</x>
+                      <y>30</y>
+                      <width>231</width>
+                      <height>41</height>
+                     </rect>
+                    </property>
+                    <property name="text">
+                     <string>TextLabel</string>
+                    </property>
+                   </widget>
+                   <widget class="QPushButton" name="pushButton_10">
+                    <property name="geometry">
+                     <rect>
+                      <x>460</x>
+                      <y>90</y>
+                      <width>93</width>
+                      <height>28</height>
+                     </rect>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">
+color: rgb(0, 0, 0);
+background-color: rgb(85, 85, 255);</string>
+                    </property>
+                    <property name="text">
+                     <string>ĐẶT VÉ</string>
+                    </property>
+                   </widget>
+                  </widget>
+                 </widget>
+                 <widget class="QWidget" name="page_2">
+                  <widget class="QWidget" name="widget_7" native="true">
+                   <property name="geometry">
+                    <rect>
+                     <x>9</x>
+                     <y>50</y>
+                     <width>941</width>
+                     <height>121</height>
+                    </rect>
+                   </property>
+                   <widget class="QLabel" name="phim1_7">
+                    <property name="geometry">
+                     <rect>
+                      <x>270</x>
+                      <y>0</y>
+                      <width>231</width>
+                      <height>41</height>
+                     </rect>
+                    </property>
+                    <property name="text">
+                     <string>TextLabel</string>
+                    </property>
+                   </widget>
+                   <widget class="QLabel" name="anh1_4">
+                    <property name="geometry">
+                     <rect>
+                      <x>30</x>
+                      <y>0</y>
+                      <width>180</width>
+                      <height>110</height>
+                     </rect>
+                    </property>
+                    <property name="text">
+                     <string>TextLabel</string>
+                    </property>
+                   </widget>
+                   <widget class="QLabel" name="phim1_8">
+                    <property name="geometry">
+                     <rect>
+                      <x>270</x>
+                      <y>30</y>
+                      <width>231</width>
+                      <height>41</height>
+                     </rect>
+                    </property>
+                    <property name="text">
+                     <string>TextLabel</string>
+                    </property>
+                   </widget>
+                   <widget class="QPushButton" name="pushButton_11">
+                    <property name="geometry">
+                     <rect>
+                      <x>460</x>
+                      <y>90</y>
+                      <width>93</width>
+                      <height>28</height>
+                     </rect>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">
+color: rgb(0, 0, 0);
+background-color: rgb(85, 85, 255);</string>
+                    </property>
+                    <property name="text">
+                     <string>ĐẶT VÉ</string>
+                    </property>
+                   </widget>
+                  </widget>
+                  <widget class="QWidget" name="widget_8" native="true">
+                   <property name="geometry">
+                    <rect>
+                     <x>10</x>
+                     <y>190</y>
+                     <width>941</width>
+                     <height>121</height>
+                    </rect>
+                   </property>
+                   <widget class="QLabel" name="phim1_9">
+                    <property name="geometry">
+                     <rect>
+                      <x>270</x>
+                      <y>0</y>
+                      <width>231</width>
+                      <height>41</height>
+                     </rect>
+                    </property>
+                    <property name="text">
+                     <string>TextLabel</string>
+                    </property>
+                   </widget>
+                   <widget class="QLabel" name="anh1_5">
+                    <property name="geometry">
+                     <rect>
+                      <x>30</x>
+                      <y>0</y>
+                      <width>180</width>
+                      <height>110</height>
+                     </rect>
+                    </property>
+                    <property name="text">
+                     <string>TextLabel</string>
+                    </property>
+                   </widget>
+                   <widget class="QLabel" name="phim1_10">
+                    <property name="geometry">
+                     <rect>
+                      <x>270</x>
+                      <y>30</y>
+                      <width>231</width>
+                      <height>41</height>
+                     </rect>
+                    </property>
+                    <property name="text">
+                     <string>TextLabel</string>
+                    </property>
+                   </widget>
+                   <widget class="QPushButton" name="pushButton_12">
+                    <property name="geometry">
+                     <rect>
+                      <x>460</x>
+                      <y>90</y>
+                      <width>93</width>
+                      <height>28</height>
+                     </rect>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">
+color: rgb(0, 0, 0);
+background-color: rgb(85, 85, 255);</string>
+                    </property>
+                    <property name="text">
+                     <string>ĐẶT VÉ</string>
+                    </property>
+                   </widget>
+                  </widget>
+                 </widget>
+                </widget>
+                <widget class="QPushButton" name="pushButton_6">
+                 <property name="geometry">
+                  <rect>
+                   <x>360</x>
+                   <y>790</y>
+                   <width>93</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(85, 170, 255);</string>
+                 </property>
+                 <property name="text">
+                  <string>1</string>
+                 </property>
+                </widget>
+                <widget class="QPushButton" name="pushButton_7">
+                 <property name="geometry">
+                  <rect>
+                   <x>460</x>
+                   <y>790</y>
+                   <width>93</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(85, 170, 255);</string>
+                 </property>
+                 <property name="text">
+                  <string>2</string>
+                 </property>
+                </widget>
+                <widget class="QToolButton" name="toolButton">
+                 <property name="geometry">
+                  <rect>
+                   <x>570</x>
+                   <y>790</y>
+                   <width>27</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string>...</string>
+                 </property>
+                </widget>
+                <zorder>stackedWidget_3</zorder>
+                <zorder>stackedWidget_2</zorder>
+                <zorder>label_3</zorder>
+                <zorder>trai</zorder>
+                <zorder>label_2</zorder>
+                <zorder>phai</zorder>
+                <zorder>pushButton_6</zorder>
+                <zorder>pushButton_7</zorder>
+                <zorder>toolButton</zorder>
+               </widget>
+               <widget class="QWidget" name="page_6"/>
+               <widget class="QWidget" name="page_5"/>
+               <widget class="QWidget" name="page_4"/>
+              </widget>
+              <widget class="QPushButton" name="trangchu">
+               <property name="geometry">
+                <rect>
+                 <x>30</x>
+                 <y>40</y>
+                 <width>200</width>
+                 <height>90</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>TRANG CHỦ</string>
+               </property>
+               <property name="checkable">
+                <bool>false</bool>
+               </property>
+              </widget>
+              <widget class="QPushButton" name="tintuc">
+               <property name="geometry">
+                <rect>
+                 <x>280</x>
+                 <y>40</y>
+                 <width>200</width>
+                 <height>90</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>TIN TỨC</string>
+               </property>
+               <property name="checkable">
+                <bool>false</bool>
+               </property>
+              </widget>
+             </widget>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="E:/a/o.qrc"/>
+ </resources>
+ <connections/>
+</ui>
