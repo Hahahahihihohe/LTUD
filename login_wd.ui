@@ -178,11 +178,11 @@ background-color : rgba(23, 107, 145, 0.851);
       </font>
      </property>
      <property name="styleSheet">
-      <string notr="true">QPushButton#forgot_pw{
+      <string notr="true">QPushButton#forgot_pw_btn{
 background-color: rgba(0,0,0,0);
 color: rgb(20, 43, 36);
 }
-QPushButton#forgot_pw:hover{
+QPushButton#forgot_pw_btn:hover{
 text-decoration: underline;
 }
 </string>

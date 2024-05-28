@@ -1,6 +1,7 @@
 from PyQt5 import QtCore, QtGui, QtWidgets
-from PyQt5.QtWidgets import QMessageBox, QMainWindow, QWidget, QApplication, QStackedWidget
+from PyQt5.QtWidgets import QMessageBox, QMainWindow, QWidget, QApplication, QStackedWidget,QTableWidgetItem
 from PyQt5.uic import loadUi
+from PyQt5.QtGui import QColor
 import sys
 from database import db
 from login import Login
@@ -26,7 +27,7 @@ class login_wd(QMainWindow):
             QMessageBox.information(self, "Thông báo", "Đăng nhập thành công")
             acc_info_f.user.update_info(kt)  # Cập nhật thông tin người dùng
             acc_info_f.show()  # Hiển thị cửa sổ thông tin tài khoản
-
+            acc_info_f.stackedWidget.setCurrentIndex(0)
             widget.setCurrentIndex(2)
             acc_info_f.show3()  # Hiển thị cửa sổ thông tin tài khoản
 
@@ -91,6 +92,7 @@ class acc_info(QMainWindow):
         self.stackedWidget.setCurrentIndex(0)
 
     def switch_his(self):
+        self.update_order_history()  # Cập nhật lịch sử giao dịch
         self.stackedWidget.setCurrentIndex(1)
 
     def switch_money(self):
@@ -101,11 +103,9 @@ class acc_info(QMainWindow):
         self.user_name_2.setText(self.user.GetName())
         self.user_age_2.setText(str(self.user.GetAge()))
         self.user_money_2.setText(str(self.user.GetMoney()))
-        super().show()
 
     def show3(self):
         self.cur_money.setText(str(self.user.GetMoney()))
-        super().show()
         # Hiển thị cửa sổ
 
 
@@ -122,7 +122,7 @@ class acc_info(QMainWindow):
     def handle_combo_box_change(self, index):
         selected_value = self.nt.currentText()
 
-        # Sử dụng if-elif-else để xử lý từng giá trị của Combobox
+        #Xử lý từng giá trị của Combobox
         if selected_value == "50000":
             self.stonks(50000)
         elif selected_value == "100000":
@@ -141,16 +141,34 @@ class acc_info(QMainWindow):
         self.cur_money.setText(str(self.user.GetMoney()))  # Cập nhật số tiền ở stackedwidget 3
     def nap_tien(self):
         # Xác định số tiền cần nạp từ combobox hoặc text box
-        amount = self.nt.currentText()  # Ví dụ: Lấy số tiền từ combobox
+        amount = self.nt.currentText()
 
-        # Chuyển đổi số tiền từ kiểu str sang kiểu int hoặc float nếu cần thiết
-        amount = int(amount)  # Ví dụ: Chuyển đổi sang kiểu float
-
+        amount = int(amount)
         # Gọi phương thức stonks() với số tiền cần nạp
         self.user.stonks(amount)
+        # Cập nhật giao diện người dùng
+        self.update_money_display()
 
-        # Cập nhật giao diện người dùng nếu cần thiết
-        self.update_money_display()  # Cập nhật số tiền mới trên tất cả các giao diện cần thiết
+    def update_order_history(self):
+        column_count = 3
+        self.tableWidget.setColumnCount(column_count)
+
+        # Xóa sạch bảng trước khi cập nhật dữ liệu mới
+        self.tableWidget.setRowCount(0)
+        order_history = self.user.Getorder()
+        if order_history is False:
+            QMessageBox.information(self, "Thông báo", "Không có lịch sử giao dịch")
+            return
+
+        # Đặt số hàng cho tableWidget
+        self.tableWidget.setRowCount(len(order_history))
+        # Duyệt qua các giao dịch và điền vào bảng
+        for row_num, order in enumerate(order_history):
+            for col_num, data in enumerate(order):
+                item = QTableWidgetItem(str(data))
+                item.setBackground(QColor(255, 255, 255))
+                self.tableWidget.setItem(row_num, col_num, item)
+        self.tableWidget.resizeColumnsToContents()
 
 
 # Cửa sổ quên mật khẩu(3)
