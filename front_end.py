@@ -167,6 +167,7 @@ class acc_info(QMainWindow):
             for col_num, data in enumerate(order):
                 item = QTableWidgetItem(str(data))
                 item.setBackground(QColor(255, 255, 255))
+
                 self.tableWidget.setItem(row_num, col_num, item)
         self.tableWidget.resizeColumnsToContents()
 
