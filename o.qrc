@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>phim-chieu-rap-anh-14.png</file>
+  </qresource>
+</RCC>
