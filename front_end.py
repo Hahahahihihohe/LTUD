@@ -1,4 +1,4 @@
-from PyQt5 import QtWidgets
+from PyQt5 import QtWidgets,QtGui
 from PyQt5.QtWidgets import QMessageBox, QMainWindow, QHeaderView, QApplication, QStackedWidget,QTableWidgetItem
 from PyQt5.uic import loadUi
 from PyQt5.QtGui import QColor
@@ -14,11 +14,12 @@ class login_wd(QMainWindow):
     def __init__(self):
         super(login_wd, self).__init__()
         loadUi("login_wd.ui", self)
-        self.login = Login()
 
+        self.login = Login()
         self.register_0.clicked.connect(self.switch_register)
         self.login_btn.clicked.connect(self.check)
         self.forgot_pw_btn.clicked.connect(self.switch_forgotpw)
+
 
     # Kiểm tra thông tin đăng nhập
     def check(self):
@@ -31,8 +32,6 @@ class login_wd(QMainWindow):
             acc_info_f.show()  # Hiển thị cửa sổ thông tin tài khoản
             acc_info_f.stackedWidget.setCurrentIndex(0)
             widget.setCurrentIndex(6)
-            #acc_info_f.show3()  # Hiển thị cửa sổ thông tin tài khoản
-
         else:
             QMessageBox.information(self, "Thông báo", "Sai tài khoản hoặc mật khẩu")
 
@@ -48,6 +47,8 @@ class register_wd(QMainWindow):
     def __init__(self):
         super(register_wd, self).__init__()
         loadUi("register_wd.ui", self)
+        self.setWindowTitle("Register Window")  # Đặt tiêu đề cho cửa sổ đăng ký
+
         self.login = Login()
 
         self.register_1.clicked.connect(self.check_rgt)
@@ -112,9 +113,6 @@ class acc_info(QMainWindow):
         self.user_age_2.setText(str(self.user.GetAge()))
         self.user_money_2.setText(str(self.user.GetMoney()))
 
-    def show3(self):
-        self.cur_money.setText(str(self.user.GetMoney()))
-        # Hiển thị cửa sổ
 
 
     def switch_changepw_wd(self):

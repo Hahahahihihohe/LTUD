@@ -21,13 +21,13 @@
    <cursorShape>ArrowCursor</cursorShape>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Login Window</string>
   </property>
   <property name="styleSheet">
    <string notr="true"/>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QWidget" name="widget" native="true">
+   <widget class="QWidget" name="LoginWindow" native="true">
     <property name="geometry">
      <rect>
       <x>1</x>
@@ -284,6 +284,12 @@ background-color : rgba(23, 107, 145, 0.851);
      <height>26</height>
     </rect>
    </property>
+   <widget class="QMenu" name="menuLogin_Window">
+    <property name="title">
+     <string>Login Window</string>
+    </property>
+   </widget>
+   <addaction name="menuLogin_Window"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>

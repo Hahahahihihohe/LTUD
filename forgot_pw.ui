@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1006</width>
-    <height>0</height>
+    <height>597</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -289,6 +289,12 @@ background-color: rgba(212, 181, 181, 0.729);
      <height>26</height>
     </rect>
    </property>
+   <widget class="QMenu" name="menuForgot_Password">
+    <property name="title">
+     <string>Forgot Password</string>
+    </property>
+   </widget>
+   <addaction name="menuForgot_Password"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
