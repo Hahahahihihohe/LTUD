@@ -1,12 +1,11 @@
-from PyQt5 import QtCore, QtGui, QtWidgets
-from PyQt5.QtWidgets import QMessageBox, QMainWindow, QWidget, QApplication, QStackedWidget,QTableWidgetItem
+from PyQt5 import QtWidgets
+from PyQt5.QtWidgets import QMessageBox, QMainWindow, QHeaderView, QApplication, QStackedWidget,QTableWidgetItem
 from PyQt5.uic import loadUi
 from PyQt5.QtGui import QColor
 from PyQt5.QtCore import QTimer
 from PyQt5.QtGui import QPixmap
 from main_scr import Mainscreen
 import sys
-from database import db
 from login import Login
 from user import User
 
@@ -100,6 +99,9 @@ class acc_info(QMainWindow):
 
     def switch_money(self):
         self.stackedWidget.setCurrentIndex(2)
+        self.cur_money.setText(str(self.user.GetMoney()))
+
+
 
     def gobackmainmenu(self):
         widget.setCurrentIndex(6)
@@ -150,8 +152,12 @@ class acc_info(QMainWindow):
         amount = self.nt.currentText()
 
         amount = int(amount)
+
         # Gọi phương thức stonks() với số tiền cần nạp
         self.user.stonks(amount)
+
+        QMessageBox.information(self, "Thông báo", "Nạp tiền thành công")
+
         # Cập nhật giao diện người dùng
         self.update_money_display()
 
@@ -174,8 +180,13 @@ class acc_info(QMainWindow):
                 item = QTableWidgetItem(str(data))
                 item.setBackground(QColor(255, 255, 255))
                 self.tableWidget.setItem(row_num, col_num, item)
-        self.tableWidget.resizeColumnsToContents()
+        # Thay đổi kích thước cột để vừa với nội dung và không gian có sẵn
+        self.tableWidget.horizontalHeader().setSectionResizeMode(QHeaderView.ResizeToContents)
+        # Đảm bảo bảng không vượt quá chiều rộng của widget
+        self.tableWidget.horizontalHeader().setStretchLastSection(True)
 
+        # Tùy chọn: Thay đổi kích thước hàng để vừa với nội dung
+        self.tableWidget.resizeRowsToContents()
 
 # Cửa sổ quên mật khẩu(3)
 class forgot_pw(QMainWindow):

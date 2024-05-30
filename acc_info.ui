@@ -185,7 +185,7 @@ border-radius : 10px</string>
       <string notr="true">background:rgba(2, 2, 13, 0.659)</string>
      </property>
      <property name="currentIndex">
-      <number>0</number>
+      <number>2</number>
      </property>
      <widget class="QWidget" name="page">
       <widget class="QLabel" name="user_name">
