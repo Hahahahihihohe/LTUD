@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>412</width>
-    <height>602</height>
+    <width>1006</width>
+    <height>0</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,35 +17,35 @@
    <widget class="QWidget" name="widget" native="true">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>10</y>
-      <width>301</width>
-      <height>471</height>
+      <x>1</x>
+      <y>1</y>
+      <width>998</width>
+      <height>998</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background: rgb(79, 228, 242);
-border-radius: 20px;
+     <string notr="true">background:rgba(2, 2, 13, 0.659)
 </string>
     </property>
     <widget class="QLabel" name="label">
      <property name="geometry">
       <rect>
-       <x>5</x>
-       <y>170</y>
-       <width>91</width>
+       <x>190</x>
+       <y>160</y>
+       <width>161</width>
        <height>31</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <pointsize>7</pointsize>
+       <pointsize>13</pointsize>
       </font>
      </property>
      <property name="styleSheet">
       <string notr="true">background: rgba(0,0,0,0);
 border-radius: 2px solid rgba(0,0,0,0);
-color: rgb(20, 43, 36);
+color: rgb(255, 255, 255)
+;
 padding-bottom: 5px;
 </string>
      </property>
@@ -56,11 +56,16 @@ padding-bottom: 5px;
     <widget class="QLineEdit" name="User_old">
      <property name="geometry">
       <rect>
-       <x>134</x>
-       <y>170</y>
-       <width>151</width>
-       <height>28</height>
+       <x>500</x>
+       <y>160</y>
+       <width>261</width>
+       <height>31</height>
       </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>13</pointsize>
+      </font>
      </property>
      <property name="styleSheet">
       <string notr="true">background: rgb(255,255,255);
@@ -76,21 +81,21 @@ padding-bottom: 5px;
     <widget class="QLabel" name="label_2">
      <property name="geometry">
       <rect>
-       <x>5</x>
+       <x>190</x>
        <y>220</y>
-       <width>91</width>
+       <width>181</width>
        <height>31</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <pointsize>7</pointsize>
+       <pointsize>13</pointsize>
       </font>
      </property>
      <property name="styleSheet">
       <string notr="true">background: rgba(0,0,0,0);
 border-radius: 2px solid rgba(0,0,0,0);
-color: rgb(20, 43, 36);
+color: rgb(255, 255, 255);
 padding-bottom: 5px;
 </string>
      </property>
@@ -101,11 +106,16 @@ padding-bottom: 5px;
     <widget class="QLineEdit" name="pw_new">
      <property name="geometry">
       <rect>
-       <x>134</x>
+       <x>500</x>
        <y>220</y>
-       <width>151</width>
-       <height>28</height>
+       <width>261</width>
+       <height>31</height>
       </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>13</pointsize>
+      </font>
      </property>
      <property name="styleSheet">
       <string notr="true">background: rgb(255,255,255);
@@ -127,21 +137,21 @@ padding-bottom: 5px;
     <widget class="QLabel" name="label_3">
      <property name="geometry">
       <rect>
-       <x>5</x>
-       <y>270</y>
-       <width>131</width>
+       <x>190</x>
+       <y>280</y>
+       <width>261</width>
        <height>31</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <pointsize>7</pointsize>
+       <pointsize>13</pointsize>
       </font>
      </property>
      <property name="styleSheet">
       <string notr="true">background: rgba(0,0,0,0);
 border-radius: 2px solid rgba(0,0,0,0);
-color: rgb(20, 43, 36);
+color: rgb(255, 255, 255);
 padding-bottom: 5px;
 </string>
      </property>
@@ -152,16 +162,21 @@ padding-bottom: 5px;
     <widget class="QLabel" name="label_4">
      <property name="geometry">
       <rect>
-       <x>50</x>
-       <y>50</y>
-       <width>201</width>
+       <x>330</x>
+       <y>60</y>
+       <width>291</width>
        <height>71</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <pointsize>12</pointsize>
+       <pointsize>15</pointsize>
       </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background:rgba(0, 0, 0, 0);
+color: rgb(255, 255, 255)
+</string>
      </property>
      <property name="text">
       <string>Tìm tài khoản của bạn</string>
@@ -170,11 +185,16 @@ padding-bottom: 5px;
     <widget class="QLineEdit" name="pw_new2">
      <property name="geometry">
       <rect>
-       <x>134</x>
-       <y>270</y>
-       <width>151</width>
-       <height>28</height>
+       <x>500</x>
+       <y>280</y>
+       <width>261</width>
+       <height>31</height>
       </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>13</pointsize>
+      </font>
      </property>
      <property name="styleSheet">
       <string notr="true">background: rgb(255,255,255);
@@ -196,15 +216,15 @@ padding-bottom: 5px;
     <widget class="QPushButton" name="change_pw">
      <property name="geometry">
       <rect>
-       <x>95</x>
-       <y>360</y>
-       <width>111</width>
+       <x>360</x>
+       <y>390</y>
+       <width>161</width>
        <height>31</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <pointsize>8</pointsize>
+       <pointsize>14</pointsize>
       </font>
      </property>
      <property name="cursor">
@@ -232,10 +252,10 @@ background-color : rgba(23, 107, 145, 0.851);
     <widget class="QPushButton" name="back">
      <property name="geometry">
       <rect>
-       <x>10</x>
-       <y>10</y>
-       <width>28</width>
-       <height>28</height>
+       <x>20</x>
+       <y>20</y>
+       <width>31</width>
+       <height>31</height>
       </rect>
      </property>
      <property name="font">
@@ -265,7 +285,7 @@ background-color: rgba(212, 181, 181, 0.729);
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>412</width>
+     <width>1006</width>
      <height>26</height>
     </rect>
    </property>
