@@ -1,95 +1,100 @@
-from PyQt5.QtWidgets import QMessageBox, QMainWindow, QWidget, QApplication, QPushButton, QStackedWidget,QTableWidgetItem
+from PyQt5.QtWidgets import QMessageBox, QMainWindow, QWidget, QApplication, QPushButton, QStackedWidget, QTableWidgetItem, QLabel, QSizePolicy,QTextEdit
 from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.uic import loadUi
 from PyQt5.QtCore import QTimer
 from PyQt5.QtGui import QPixmap
-import mysql.connector
-from main_scr import Movie
-from main_scr import Mainscreen
-from ndphim import Ui_MainWindow1
+import sys
+from main_scr import Movie, Mainscreen
+from movie_time import Movie_time, Booking_screen
 from nddatve import xulydatve
 
-import sys
-class slidebar(QMainWindow):
+# Trang chủ
+class SlideBar(QMainWindow):
     def __init__(self):
-        super(slidebar, self).__init__()
+        super(SlideBar, self).__init__()
         loadUi("hi.ui", self)
 
-        #self.setCentralWidget(self.ui)
         self.setWindowTitle("SlideBar Menu")
-       # self.icon_name_widget.setHidden(True)
         self.trangchu.clicked.connect(self.switch_trangchu_page)
-        self.trai.clicked.connect(self.switch_truot)
-        self.phai.clicked.connect(self.switch_truot)
         self.lichchieu.clicked.connect(self.switch_lichchieu)
         self.tintuc.clicked.connect(self.switch_tintuc)
         self.thanhvien.clicked.connect(self.switch_thanhvien)
+        self.trai.clicked.connect(self.switch_truot)
+        self.phai.clicked.connect(self.switch_truot)
         self.timer = QTimer(self)
         self.timer.timeout.connect(self.switch_truot)
         self.timer.start(3000)
+
         self.mainscreen = Mainscreen()
         self.ketnoidb()
+
         self.pushButton_6.clicked.connect(self.chuyen_anh1)
         self.pushButton_7.clicked.connect(self.chuyen_anh2)
         self.pushButton_13.clicked.connect(self.chuyen_anh3)
 
-        image_path = "D:/LTUD/pythonProject5/Quỷ Ám Tín Đồ.png"
-        image1 = "D:/LTUD/pythonProject5/tải xuống (2).jpg"
-        img2 = "D:/LTUD/pythonProject5/Nhóc Trùm Nối Nghiệp Gia Đình.png"
-        img3 = "D:/LTUD/pythonProject5/Wolfoo Và Hòn Đảo Kỳ Bí.png"
-        img4 = "D:/LTUD/pythonProject5/tải xuống.jpg"
-        img5 = "D:/LTUD/pythonProject5/tải xuống (1).jpg"
-        img6 = "D:/LTUD/pythonProject5/Thám Tử Lừng Danh Conan Tàu Ngầm Sắt Màu Đen.png"
-        img7 = "D:/LTUD/pythonProject5/tải xuống (4).jpg"
-        img8 = "D:/LTUD/pythonProject5/Học Thuyết.png"
+        # Đường dẫn tới các hình ảnh
+        image_paths = [
+            "D:/LTUD/pythonProject5/Quỷ Ám Tín Đồ.png",
+            "D:/LTUD/pythonProject5/tải xuống (2).jpg",
+            "D:/LTUD/pythonProject5/Nhóc Trùm Nối Nghiệp Gia Đình.png",
+            "D:/LTUD/pythonProject5/Wolfoo Và Hòn Đảo Kỳ Bí.png",
+            "D:/LTUD/pythonProject5/tải xuống.jpg",
+            "D:/LTUD/pythonProject5/tải xuống (1).jpg",
+            "D:/LTUD/pythonProject5/Thám Tử Lừng Danh Conan Tàu Ngầm Sắt Màu Đen.png",
+            "D:/LTUD/pythonProject5/tải xuống (4).jpg",
+            "D:/LTUD/pythonProject5/Học Thuyết.png"
+        ]
 
-        p8 = QPixmap(img8)
-        p3 = QPixmap(img3)
-        p1 = QPixmap(image1)
-        p = QPixmap(image_path)
-        p4 = QPixmap(img4)
-        p2 = QPixmap(img2)
-        p5 = QPixmap(img5)
-        p6 = QPixmap(img6)
-        p7 = QPixmap(img7)
-        #self.chuyenphim.clicked.connect(self.open)
-        # Lấy QLabel có tên là 'anh1' từ giao diện
-        #self.anh1 = self.findChild(QLabel, 'anh1')
-        self.chuyenphim.clicked.connect(self.open)
-        # Đặt hình ảnh vào QLabel 'anh1'
-        self.kt = 0
+        self.pixmaps = [QPixmap(path) for path in image_paths]
 
+        self.update_images()
 
-        self.anh1.setPixmap(p)
-        self.label_7.setPixmap(p1)
-        self.anh1_5.setPixmap(p2)
-        self.anh2.setPixmap(p3)
-        self.label_5.setPixmap(p1)
-        self.label.setPixmap(p4)
-        self.label_13.setPixmap(p4)
-        self.label_14.setPixmap(p1)
-        self.label_15.setPixmap(p4)
-        self.label_12.setPixmap(p5)
-        self.label_6.setPixmap(p5)
-        self.label_16.setPixmap(p5)
-        self.anh1_2.setPixmap(p6)
-        self.anh1_3.setPixmap(p7)
-        self.anh1_4.setPixmap(p8)
-        #self.chuyenphim.clicked.connect(self.emit_chuyenphim_clicked)
+        self.chuyenphim.clicked.connect(lambda: self.open_movie_page(1,self.pixmaps[0]))
+        self.chuyenhinhanh.clicked.connect(lambda: self.open_movie_page(1,self.pixmaps[0]))
+        self.chuyenphim_2.clicked.connect(lambda: self.open_movie_page(2,self.pixmaps[0]))
+        self.chuyenhinhanh_2.clicked.connect(lambda: self.open_movie_page(2,self.pixmaps[0]))
+        self.chuyenphim_3.clicked.connect(lambda: self.open_movie_page(3,self.pixmaps[5]))
+        self.chuyenhinhanh_3.clicked.connect(lambda: self.open_movie_page(3,self.pixmaps[5]))
+        self.chuyenphim_4.clicked.connect(lambda: self.open_movie_page(4,self.pixmaps[1]))
+        self.chuyenhinhanh_4.clicked.connect(lambda: self.open_movie_page(4,self.pixmaps[1]))
+        self.chuyenphim_5.clicked.connect(lambda: self.open_movie_page(5,self.pixmaps[0]))
+        self.chuyenhinhanh_5.clicked.connect(lambda: self.open_movie_page(5,self.pixmaps[0]))
+        self.chuyenphim_6.clicked.connect(lambda: self.open_movie_page(6,self.pixmaps[4]))
+        self.chuyenhinhanh_6.clicked.connect(lambda: self.open_movie_page(6,self.pixmaps[4]))
 
+        self.pushButton.clicked.connect(lambda : self.open_movie_page(6,self.pixmaps[4]))
+        self.pushButton_2.clicked.connect(lambda: self.open_movie_page(3, self.pixmaps[5]))
+        self.pushButton_3.clicked.connect(lambda: self.open_movie_page(4, self.pixmaps[1]))
+    def update_images(self):
+        self.anh1.setPixmap(self.pixmaps[0])
+        self.label_7.setPixmap(self.pixmaps[1])
+        self.anh1_5.setPixmap(self.pixmaps[2])
+        self.anh2.setPixmap(self.pixmaps[3])
+        self.label_5.setPixmap(self.pixmaps[1])
+        self.label.setPixmap(self.pixmaps[4])
+        self.label_13.setPixmap(self.pixmaps[4])
+        self.label_14.setPixmap(self.pixmaps[1])
+        self.label_15.setPixmap(self.pixmaps[4])
+        self.label_12.setPixmap(self.pixmaps[5])
+        self.label_6.setPixmap(self.pixmaps[5])
+        self.label_16.setPixmap(self.pixmaps[5])
+        self.anh1_2.setPixmap(self.pixmaps[6])
+        self.anh1_3.setPixmap(self.pixmaps[7])
+        self.anh1_4.setPixmap(self.pixmaps[8])
 
-
-    def open(self):
+    def open_movie_page(self, movie_index, pixmap):
+        page1.update_content(movie_index,pixmap)
         widget.setCurrentIndex(1)
-
 
     def switch_trangchu_page(self):
         self.stackedWidget.setCurrentIndex(0)
-        #self.stackedWidget_2.setCurrentIndex(0)
+
     def switch_lichchieu(self):
         self.stackedWidget.setCurrentIndex(1)
+
     def switch_tintuc(self):
         self.stackedWidget.setCurrentIndex(2)
+
     def switch_thanhvien(self):
         self.stackedWidget.setCurrentIndex(3)
 
@@ -97,6 +102,7 @@ class slidebar(QMainWindow):
         current_index = self.stackedWidget_2.currentIndex()
         next_index = (current_index + 1) % self.stackedWidget_2.count()
         self.stackedWidget_2.setCurrentIndex(next_index)
+
     def chuyen_anh1(self):
         self.stackedWidget_3.setCurrentIndex(0)
 
@@ -105,6 +111,7 @@ class slidebar(QMainWindow):
 
     def chuyen_anh3(self):
         self.stackedWidget_3.setCurrentIndex(2)
+
     def ketnoidb(self):
         if self.mainscreen.Movie:
             p1 = self.mainscreen.Movie[1]
@@ -125,38 +132,90 @@ class slidebar(QMainWindow):
             p6 = self.mainscreen.Movie[6]
             self.phim1_9.setText(p6.GetName())
             self.phim1_10.setText(p6.GetType())
-            #self.anh1.pick_movie(1)
-            #pixmap1 = self.mainscreen.load_cover(1)
-            # self.anh1.setPixmap(pixmap1)
-            #self.label_movie_description.setText(first_movie.GetDes())  # Assuming you have a label to show movie description
         else:
             print("No movies found")
 
+# Trang nội dung thông tin phim
 class xulydatve(QMainWindow):
     def __init__(self):
         super(xulydatve, self).__init__()
         loadUi("noidungphim.ui", self)
         self.setWindowTitle("NOIDUNG")
-        self.mainscreen1 = Mainscreen()
-        self.ketnoidb1()
+        self.mscr = Mainscreen()
+        self.dulieu = Booking_screen()
+
         self.back.clicked.connect(self.trove)
+        self.pushButton_9.clicked.connect(self.ve)
+        self.pushButton_10.clicked.connect(self.ve)
+        self.pushButton_11.clicked.connect(self.ve)
+        self.pushButton_12.clicked.connect(self.ve)
+        self.pushButton_13.clicked.connect(self.ve)
+        self.pushButton_15.clicked.connect(self.ve)
+        self.pushButton_17.clicked.connect(self.ve)
+        self.pushButton.clicked.connect(self.thuhai)
+        self.pushButton_3.clicked.connect(self.thuba)
+        self.pushButton_4.clicked.connect(self.thutu)
+        self.pushButton_7.clicked.connect(self.thunam)
+        self.pushButton_5.clicked.connect(self.thusau)
+        self.pushButton_6.clicked.connect(self.thubay)
+        self.pushButton_8.clicked.connect(self.chunhat)
+
+    #Hiện thông tin phim
+    def update_content(self, movie,pixmap):
+        if self.mscr.Movie:
+            phim1 = self.mscr.Movie[movie]
+            self.label_2.setText(phim1.GetName())
+            self.label_5.setText(phim1.GetDes())
+            self.label_6.setText(phim1.GetType())
+            self.label_7.setText(phim1.GetTime())
+            self.label_9.setText(phim1.getAge_Res())
+            self.label.setPixmap(pixmap)
+
 
     def trove(self):
-        widget.setCurrentIndex(0)
-    def ketnoidb1(self):
-        if self.mainscreen1.Movie:
-            phim1 = self.mainscreen1.Movie[1]
-            self.label_2.setText(phim1.GetName())
+        widget.setCurrentIndex(0) #trở về trang đầu
+
+    #lịch chiếu
+    def thuhai(self):
+        self.stackedWidget.setCurrentIndex(0)
+    def thuba(self):
+        self.stackedWidget.setCurrentIndex(1)
+    def thutu(self):
+        self.stackedWidget.setCurrentIndex(2)
+    def thunam(self):
+        self.stackedWidget.setCurrentIndex(3)
+    def thusau(self):
+        self.stackedWidget.setCurrentIndex(4)
+    def thubay(self):
+        self.stackedWidget.setCurrentIndex(5)
+    def chunhat(self):
+        self.stackedWidget.setCurrentIndex(6)
+
+    def ve(self):
+        widget.setCurrentIndex(2) #sang trang đặt vé
+
+# Trang đặt chỗ xem phim
+class datve(QMainWindow):
+    def __init__(self):
+        super(datve, self).__init__()
+        loadUi("2.ui", self)
+        self.setWindowTitle("DATVE")
+        self.pushButton_19.clicked.connect(self.vechonngay)
+
+    def vechonngay(self):
+        widget.setCurrentIndex(1)
 
 
 app = QApplication(sys.argv)
 widget = QStackedWidget()
-main_window = slidebar()
+main_window = SlideBar()
 page1 = xulydatve()
+page2 = datve()
 widget.addWidget(main_window)
 widget.addWidget(page1)
-widget.setFixedWidth(1040)
-widget.setFixedHeight(600)
+widget.addWidget(page2)
+widget.setFixedWidth(1100)
+widget.setFixedHeight(650)
 widget.setCurrentIndex(0)
 widget.show()
 sys.exit(app.exec_())
