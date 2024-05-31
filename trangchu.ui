@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1038</width>
-    <height>583</height>
+    <width>1084</width>
+    <height>721</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -39,8 +39,8 @@
        <property name="geometry">
         <rect>
          <x>0</x>
-         <y>0</y>
-         <width>1022</width>
+         <y>-200</y>
+         <width>1061</width>
          <height>1022</height>
         </rect>
        </property>
@@ -54,7 +54,7 @@
            </size>
           </property>
           <property name="styleSheet">
-           <string notr="true">background-color: rgb(160, 170, 137)</string>
+           <string notr="true">background-color: rgb(62, 62, 62);</string>
           </property>
           <property name="frameShape">
            <enum>QFrame::StyledPanel</enum>
@@ -88,7 +88,7 @@
                <rect>
                 <x>0</x>
                 <y>0</y>
-                <width>996</width>
+                <width>1035</width>
                 <height>996</height>
                </rect>
               </property>
@@ -340,22 +340,14 @@
                 <widget class="QPushButton" name="phai">
                  <property name="geometry">
                   <rect>
-                   <x>870</x>
+                   <x>850</x>
                    <y>150</y>
                    <width>71</width>
                    <height>71</height>
                   </rect>
                  </property>
-                 <property name="font">
-                  <font>
-                   <pointsize>24</pointsize>
-                  </font>
-                 </property>
                  <property name="styleSheet">
-                  <string notr="true">background-color: rgba(0, 0, 0, 0);
-color: rgb(213, 0, 0) ;
-
-QPushButton {
+                  <string notr="true">QPushButton {
     background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
     border: none; /* Loại bỏ viền (nếu cần) */
     color: black; /* Màu chữ (có thể thay đổi) */
@@ -363,7 +355,7 @@ QPushButton {
 </string>
                  </property>
                  <property name="text">
-                  <string>&gt;</string>
+                  <string/>
                  </property>
                  <property name="checkable">
                   <bool>false</bool>
@@ -372,24 +364,55 @@ QPushButton {
                   <bool>true</bool>
                  </property>
                 </widget>
-                <widget class="QPushButton" name="trai">
+                <widget class="QLabel" name="label_2">
                  <property name="geometry">
                   <rect>
-                   <x>80</x>
+                   <x>850</x>
                    <y>150</y>
                    <width>71</width>
                    <height>71</height>
                   </rect>
                  </property>
-                 <property name="font">
-                  <font>
-                   <pointsize>24</pointsize>
-                  </font>
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="pixmap">
+                  <pixmap>C:/Users/hieun/Downloads/right.png.svg</pixmap>
+                 </property>
+                 <property name="scaledContents">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_3">
+                 <property name="geometry">
+                  <rect>
+                   <x>100</x>
+                   <y>150</y>
+                   <width>71</width>
+                   <height>71</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="pixmap">
+                  <pixmap>C:/Users/hieun/Downloads/left-arrow.png</pixmap>
+                 </property>
+                 <property name="scaledContents">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+                <widget class="QPushButton" name="trai">
+                 <property name="geometry">
+                  <rect>
+                   <x>100</x>
+                   <y>150</y>
+                   <width>71</width>
+                   <height>71</height>
+                  </rect>
                  </property>
                  <property name="styleSheet">
-                  <string notr="true">background-color: rgba(0, 0, 0, 0);
-color: rgb(213, 0, 0) ;
-QPushButton {
+                  <string notr="true">QPushButton {
     background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
     border: none; /* Loại bỏ viền (nếu cần) */
     color: black; /* Màu chữ (có thể thay đổi) */
@@ -397,7 +420,7 @@ QPushButton {
 </string>
                  </property>
                  <property name="text">
-                  <string>&lt;</string>
+                  <string/>
                  </property>
                 </widget>
                 <widget class="QStackedWidget" name="stackedWidget_3">
@@ -1120,7 +1143,9 @@ background-color: rgb(85, 85, 255);</string>
                 </widget>
                 <zorder>stackedWidget_3</zorder>
                 <zorder>stackedWidget_2</zorder>
+                <zorder>label_3</zorder>
                 <zorder>trai</zorder>
+                <zorder>label_2</zorder>
                 <zorder>phai</zorder>
                 <zorder>pushButton_6</zorder>
                 <zorder>pushButton_7</zorder>
@@ -1143,7 +1168,6 @@ background-color: rgb(85, 85, 255);</string>
                </property>
                <property name="font">
                 <font>
-                 <family>MS Reference Sans Serif</family>
                  <pointsize>12</pointsize>
                 </font>
                </property>
@@ -1188,6 +1212,8 @@ background-color: rgb(85, 85, 255);</string>
    </layout>
   </widget>
  </widget>
- <resources/>
+ <resources>
+  <include location="E:/a/o.qrc"/>
+ </resources>
  <connections/>
 </ui>

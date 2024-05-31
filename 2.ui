@@ -1,0 +1,6060 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1076</width>
+    <height>770</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="font">
+    <font>
+     <pointsize>1</pointsize>
+    </font>
+   </property>
+   <layout class="QGridLayout">
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <item row="0" column="0">
+     <widget class="QScrollArea" name="scrollArea">
+      <property name="widgetResizable">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="scrollAreaWidgetContents">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>1053</width>
+         <height>1022</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_4">
+        <item>
+         <widget class="QFrame" name="frame">
+          <property name="minimumSize">
+           <size>
+            <width>1000</width>
+            <height>1000</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(62, 62, 62);</string>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <property name="lineWidth">
+           <number>0</number>
+          </property>
+          <widget class="QLabel" name="label_3">
+           <property name="geometry">
+            <rect>
+             <x>30</x>
+             <y>830</y>
+             <width>331</width>
+             <height>81</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>10</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>ĐÃ CÓ NGƯỜI NGỒI</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB6_22">
+           <property name="geometry">
+            <rect>
+             <x>270</x>
+             <y>580</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB6_11">
+           <property name="geometry">
+            <rect>
+             <x>720</x>
+             <y>460</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblD5">
+           <property name="geometry">
+            <rect>
+             <x>620</x>
+             <y>340</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblE9">
+           <property name="geometry">
+            <rect>
+             <x>420</x>
+             <y>400</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB1">
+           <property name="geometry">
+            <rect>
+             <x>720</x>
+             <y>220</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+           <property name="wordWrap">
+            <bool>false</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB6_5">
+           <property name="geometry">
+            <rect>
+             <x>420</x>
+             <y>460</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB6_29">
+           <property name="geometry">
+            <rect>
+             <x>620</x>
+             <y>580</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p7b">
+           <property name="geometry">
+            <rect>
+             <x>570</x>
+             <y>220</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB5">
+           <property name="geometry">
+            <rect>
+             <x>520</x>
+             <y>220</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblA2">
+           <property name="geometry">
+            <rect>
+             <x>670</x>
+             <y>160</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p6a">
+           <property name="geometry">
+            <rect>
+             <x>520</x>
+             <y>160</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB6_27">
+           <property name="geometry">
+            <rect>
+             <x>520</x>
+             <y>580</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p4a">
+           <property name="geometry">
+            <rect>
+             <x>420</x>
+             <y>160</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p5a">
+           <property name="geometry">
+            <rect>
+             <x>470</x>
+             <y>160</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblA3">
+           <property name="geometry">
+            <rect>
+             <x>620</x>
+             <y>160</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB6_33">
+           <property name="geometry">
+            <rect>
+             <x>320</x>
+             <y>640</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblA10_15">
+           <property name="geometry">
+            <rect>
+             <x>570</x>
+             <y>220</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>E:/a/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB6_41">
+           <property name="geometry">
+            <rect>
+             <x>720</x>
+             <y>640</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB6_8">
+           <property name="geometry">
+            <rect>
+             <x>570</x>
+             <y>460</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_6">
+           <property name="geometry">
+            <rect>
+             <x>880</x>
+             <y>90</y>
+             <width>101</width>
+             <height>51</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>LỐI RA</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblA10_9">
+           <property name="geometry">
+            <rect>
+             <x>620</x>
+             <y>400</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB6_9">
+           <property name="geometry">
+            <rect>
+             <x>620</x>
+             <y>460</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblE6">
+           <property name="geometry">
+            <rect>
+             <x>570</x>
+             <y>400</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblD3">
+           <property name="geometry">
+            <rect>
+             <x>720</x>
+             <y>340</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblA5">
+           <property name="geometry">
+            <rect>
+             <x>520</x>
+             <y>160</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblD10">
+           <property name="geometry">
+            <rect>
+             <x>370</x>
+             <y>340</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB6_7">
+           <property name="geometry">
+            <rect>
+             <x>520</x>
+             <y>460</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblA10_8">
+           <property name="geometry">
+            <rect>
+             <x>570</x>
+             <y>160</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB6_40">
+           <property name="geometry">
+            <rect>
+             <x>670</x>
+             <y>640</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblA4">
+           <property name="geometry">
+            <rect>
+             <x>570</x>
+             <y>160</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p3a">
+           <property name="geometry">
+            <rect>
+             <x>370</x>
+             <y>160</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB6_23">
+           <property name="geometry">
+            <rect>
+             <x>320</x>
+             <y>580</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB6_35">
+           <property name="geometry">
+            <rect>
+             <x>420</x>
+             <y>640</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p1c">
+           <property name="geometry">
+            <rect>
+             <x>270</x>
+             <y>280</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+QPushButton::checked
+{
+	background-color : red;
+	color red;
+	font-weigh:bold;
+}</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB6_20">
+           <property name="geometry">
+            <rect>
+             <x>670</x>
+             <y>520</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblD4">
+           <property name="geometry">
+            <rect>
+             <x>670</x>
+             <y>340</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblA10_14">
+           <property name="geometry">
+            <rect>
+             <x>520</x>
+             <y>220</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblA6">
+           <property name="geometry">
+            <rect>
+             <x>470</x>
+             <y>160</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblC5">
+           <property name="geometry">
+            <rect>
+             <x>620</x>
+             <y>280</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblA10_16">
+           <property name="geometry">
+            <rect>
+             <x>370</x>
+             <y>220</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblE10">
+           <property name="geometry">
+            <rect>
+             <x>370</x>
+             <y>400</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p8b">
+           <property name="geometry">
+            <rect>
+             <x>620</x>
+             <y>220</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblD6">
+           <property name="geometry">
+            <rect>
+             <x>570</x>
+             <y>340</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB6_31">
+           <property name="geometry">
+            <rect>
+             <x>720</x>
+             <y>580</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblE4">
+           <property name="geometry">
+            <rect>
+             <x>670</x>
+             <y>400</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p1b">
+           <property name="geometry">
+            <rect>
+             <x>270</x>
+             <y>220</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p2a">
+           <property name="geometry">
+            <rect>
+             <x>320</x>
+             <y>160</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB6_38">
+           <property name="geometry">
+            <rect>
+             <x>570</x>
+             <y>640</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblA7">
+           <property name="geometry">
+            <rect>
+             <x>420</x>
+             <y>160</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB2">
+           <property name="geometry">
+            <rect>
+             <x>670</x>
+             <y>220</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblA1">
+           <property name="geometry">
+            <rect>
+             <x>720</x>
+             <y>160</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB6_4">
+           <property name="geometry">
+            <rect>
+             <x>370</x>
+             <y>460</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblD12">
+           <property name="geometry">
+            <rect>
+             <x>270</x>
+             <y>340</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblE7">
+           <property name="geometry">
+            <rect>
+             <x>520</x>
+             <y>400</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblA10_12">
+           <property name="geometry">
+            <rect>
+             <x>670</x>
+             <y>220</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>E:/a/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB6_16">
+           <property name="geometry">
+            <rect>
+             <x>470</x>
+             <y>520</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB6_2">
+           <property name="geometry">
+            <rect>
+             <x>270</x>
+             <y>460</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblA10_6">
+           <property name="geometry">
+            <rect>
+             <x>520</x>
+             <y>160</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblD9">
+           <property name="geometry">
+            <rect>
+             <x>420</x>
+             <y>340</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblE8">
+           <property name="geometry">
+            <rect>
+             <x>470</x>
+             <y>400</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB6_32">
+           <property name="geometry">
+            <rect>
+             <x>270</x>
+             <y>640</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB6_18">
+           <property name="geometry">
+            <rect>
+             <x>570</x>
+             <y>520</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB6">
+           <property name="geometry">
+            <rect>
+             <x>470</x>
+             <y>220</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblD11">
+           <property name="geometry">
+            <rect>
+             <x>320</x>
+             <y>340</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblD8">
+           <property name="geometry">
+            <rect>
+             <x>470</x>
+             <y>340</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB6_21">
+           <property name="geometry">
+            <rect>
+             <x>720</x>
+             <y>520</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB6_39">
+           <property name="geometry">
+            <rect>
+             <x>620</x>
+             <y>640</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblA8">
+           <property name="geometry">
+            <rect>
+             <x>370</x>
+             <y>160</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p10a">
+           <property name="geometry">
+            <rect>
+             <x>720</x>
+             <y>160</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p9b">
+           <property name="geometry">
+            <rect>
+             <x>670</x>
+             <y>220</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB6_12">
+           <property name="geometry">
+            <rect>
+             <x>270</x>
+             <y>520</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblC3">
+           <property name="geometry">
+            <rect>
+             <x>720</x>
+             <y>280</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_19">
+           <property name="geometry">
+            <rect>
+             <x>40</x>
+             <y>40</y>
+             <width>93</width>
+             <height>51</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>QUAY LẠI</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB6_3">
+           <property name="geometry">
+            <rect>
+             <x>320</x>
+             <y>460</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB6_10">
+           <property name="geometry">
+            <rect>
+             <x>670</x>
+             <y>460</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p2b">
+           <property name="geometry">
+            <rect>
+             <x>320</x>
+             <y>220</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p9a">
+           <property name="geometry">
+            <rect>
+             <x>670</x>
+             <y>160</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB6_37">
+           <property name="geometry">
+            <rect>
+             <x>520</x>
+             <y>640</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p4b">
+           <property name="geometry">
+            <rect>
+             <x>420</x>
+             <y>220</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB7">
+           <property name="geometry">
+            <rect>
+             <x>420</x>
+             <y>220</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p3b">
+           <property name="geometry">
+            <rect>
+             <x>370</x>
+             <y>220</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="autoFillBackground">
+            <bool>false</bool>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB6_28">
+           <property name="geometry">
+            <rect>
+             <x>570</x>
+             <y>580</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB6_25">
+           <property name="geometry">
+            <rect>
+             <x>420</x>
+             <y>580</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB4">
+           <property name="geometry">
+            <rect>
+             <x>570</x>
+             <y>220</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblC12">
+           <property name="geometry">
+            <rect>
+             <x>270</x>
+             <y>280</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB9">
+           <property name="geometry">
+            <rect>
+             <x>320</x>
+             <y>220</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB6_14">
+           <property name="geometry">
+            <rect>
+             <x>370</x>
+             <y>520</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB8">
+           <property name="geometry">
+            <rect>
+             <x>370</x>
+             <y>220</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB6_19">
+           <property name="geometry">
+            <rect>
+             <x>620</x>
+             <y>520</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblA10_11">
+           <property name="geometry">
+            <rect>
+             <x>670</x>
+             <y>160</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_4">
+           <property name="geometry">
+            <rect>
+             <x>30</x>
+             <y>910</y>
+             <width>241</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>11</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>CHỌN GHẾ</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblA10_4">
+           <property name="geometry">
+            <rect>
+             <x>470</x>
+             <y>160</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblA10_2">
+           <property name="geometry">
+            <rect>
+             <x>370</x>
+             <y>160</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB6_34">
+           <property name="geometry">
+            <rect>
+             <x>370</x>
+             <y>640</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p6b">
+           <property name="geometry">
+            <rect>
+             <x>520</x>
+             <y>220</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label">
+           <property name="geometry">
+            <rect>
+             <x>230</x>
+             <y>30</y>
+             <width>571</width>
+             <height>51</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>17</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;MÀN HÌNH&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblD7">
+           <property name="geometry">
+            <rect>
+             <x>520</x>
+             <y>340</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblA10_17">
+           <property name="geometry">
+            <rect>
+             <x>420</x>
+             <y>220</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+QPushButton::checked
+{
+	background-color : red;
+	color red;
+	font-weigh:bold;
+}</string>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblA10_10">
+           <property name="geometry">
+            <rect>
+             <x>620</x>
+             <y>220</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblA10_3">
+           <property name="geometry">
+            <rect>
+             <x>320</x>
+             <y>160</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB6_17">
+           <property name="geometry">
+            <rect>
+             <x>520</x>
+             <y>520</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p7a">
+           <property name="geometry">
+            <rect>
+             <x>570</x>
+             <y>160</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblE5">
+           <property name="geometry">
+            <rect>
+             <x>620</x>
+             <y>400</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p8a">
+           <property name="geometry">
+            <rect>
+             <x>620</x>
+             <y>160</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB6_30">
+           <property name="geometry">
+            <rect>
+             <x>670</x>
+             <y>580</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB3">
+           <property name="geometry">
+            <rect>
+             <x>620</x>
+             <y>220</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p5b">
+           <property name="geometry">
+            <rect>
+             <x>470</x>
+             <y>220</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblE12">
+           <property name="geometry">
+            <rect>
+             <x>270</x>
+             <y>400</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblA9">
+           <property name="geometry">
+            <rect>
+             <x>320</x>
+             <y>160</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB6_15">
+           <property name="geometry">
+            <rect>
+             <x>420</x>
+             <y>520</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB6_26">
+           <property name="geometry">
+            <rect>
+             <x>470</x>
+             <y>580</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB6_36">
+           <property name="geometry">
+            <rect>
+             <x>470</x>
+             <y>640</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p10b">
+           <property name="geometry">
+            <rect>
+             <x>720</x>
+             <y>220</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblE3">
+           <property name="geometry">
+            <rect>
+             <x>720</x>
+             <y>400</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblA10_13">
+           <property name="geometry">
+            <rect>
+             <x>470</x>
+             <y>220</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblE11">
+           <property name="geometry">
+            <rect>
+             <x>320</x>
+             <y>400</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB6_6">
+           <property name="geometry">
+            <rect>
+             <x>470</x>
+             <y>460</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblA10_5">
+           <property name="geometry">
+            <rect>
+             <x>420</x>
+             <y>160</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB10">
+           <property name="geometry">
+            <rect>
+             <x>270</x>
+             <y>220</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblA10_7">
+           <property name="geometry">
+            <rect>
+             <x>620</x>
+             <y>160</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblC4">
+           <property name="geometry">
+            <rect>
+             <x>670</x>
+             <y>280</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblA10">
+           <property name="geometry">
+            <rect>
+             <x>270</x>
+             <y>160</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>E:/a/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB6_13">
+           <property name="geometry">
+            <rect>
+             <x>320</x>
+             <y>520</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB6_24">
+           <property name="geometry">
+            <rect>
+             <x>370</x>
+             <y>580</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblD12_2">
+           <property name="geometry">
+            <rect>
+             <x>320</x>
+             <y>280</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblD12_3">
+           <property name="geometry">
+            <rect>
+             <x>370</x>
+             <y>280</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblD12_4">
+           <property name="geometry">
+            <rect>
+             <x>420</x>
+             <y>280</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblD12_5">
+           <property name="geometry">
+            <rect>
+             <x>470</x>
+             <y>280</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblD12_6">
+           <property name="geometry">
+            <rect>
+             <x>520</x>
+             <y>280</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblD12_7">
+           <property name="geometry">
+            <rect>
+             <x>570</x>
+             <y>280</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p6c">
+           <property name="geometry">
+            <rect>
+             <x>520</x>
+             <y>280</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p7c">
+           <property name="geometry">
+            <rect>
+             <x>570</x>
+             <y>280</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p5c">
+           <property name="geometry">
+            <rect>
+             <x>470</x>
+             <y>280</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p4c">
+           <property name="geometry">
+            <rect>
+             <x>420</x>
+             <y>280</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p3c">
+           <property name="geometry">
+            <rect>
+             <x>370</x>
+             <y>280</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p2c">
+           <property name="geometry">
+            <rect>
+             <x>320</x>
+             <y>280</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p1d">
+           <property name="geometry">
+            <rect>
+             <x>270</x>
+             <y>340</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p1a">
+           <property name="geometry">
+            <rect>
+             <x>270</x>
+             <y>160</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p8c">
+           <property name="geometry">
+            <rect>
+             <x>620</x>
+             <y>280</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p9c">
+           <property name="geometry">
+            <rect>
+             <x>670</x>
+             <y>280</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p10c">
+           <property name="geometry">
+            <rect>
+             <x>720</x>
+             <y>280</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p2d">
+           <property name="geometry">
+            <rect>
+             <x>320</x>
+             <y>340</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p3d">
+           <property name="geometry">
+            <rect>
+             <x>370</x>
+             <y>340</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p4d">
+           <property name="geometry">
+            <rect>
+             <x>420</x>
+             <y>340</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p5d">
+           <property name="geometry">
+            <rect>
+             <x>470</x>
+             <y>340</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p6d">
+           <property name="geometry">
+            <rect>
+             <x>520</x>
+             <y>340</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p7d">
+           <property name="geometry">
+            <rect>
+             <x>570</x>
+             <y>340</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p8d">
+           <property name="geometry">
+            <rect>
+             <x>620</x>
+             <y>340</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p9d">
+           <property name="geometry">
+            <rect>
+             <x>670</x>
+             <y>340</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p10d">
+           <property name="geometry">
+            <rect>
+             <x>720</x>
+             <y>340</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p1e">
+           <property name="geometry">
+            <rect>
+             <x>270</x>
+             <y>400</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p2e">
+           <property name="geometry">
+            <rect>
+             <x>320</x>
+             <y>400</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p3e">
+           <property name="geometry">
+            <rect>
+             <x>370</x>
+             <y>400</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p4e">
+           <property name="geometry">
+            <rect>
+             <x>420</x>
+             <y>400</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p5e">
+           <property name="geometry">
+            <rect>
+             <x>470</x>
+             <y>400</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p6e">
+           <property name="geometry">
+            <rect>
+             <x>520</x>
+             <y>400</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p7e">
+           <property name="geometry">
+            <rect>
+             <x>570</x>
+             <y>400</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p8e">
+           <property name="geometry">
+            <rect>
+             <x>620</x>
+             <y>400</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p9e">
+           <property name="geometry">
+            <rect>
+             <x>670</x>
+             <y>400</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p10e">
+           <property name="geometry">
+            <rect>
+             <x>720</x>
+             <y>400</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p1f">
+           <property name="geometry">
+            <rect>
+             <x>270</x>
+             <y>460</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p2f">
+           <property name="geometry">
+            <rect>
+             <x>320</x>
+             <y>460</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p3f">
+           <property name="geometry">
+            <rect>
+             <x>370</x>
+             <y>460</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p4f">
+           <property name="geometry">
+            <rect>
+             <x>420</x>
+             <y>460</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p5f">
+           <property name="geometry">
+            <rect>
+             <x>470</x>
+             <y>460</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p6f">
+           <property name="geometry">
+            <rect>
+             <x>520</x>
+             <y>460</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p7f">
+           <property name="geometry">
+            <rect>
+             <x>570</x>
+             <y>460</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p8f">
+           <property name="geometry">
+            <rect>
+             <x>620</x>
+             <y>460</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p9f">
+           <property name="geometry">
+            <rect>
+             <x>670</x>
+             <y>460</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p10f">
+           <property name="geometry">
+            <rect>
+             <x>720</x>
+             <y>460</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p1g">
+           <property name="geometry">
+            <rect>
+             <x>270</x>
+             <y>520</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p2g">
+           <property name="geometry">
+            <rect>
+             <x>320</x>
+             <y>520</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p3g">
+           <property name="geometry">
+            <rect>
+             <x>370</x>
+             <y>520</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p4g">
+           <property name="geometry">
+            <rect>
+             <x>420</x>
+             <y>520</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p5g">
+           <property name="geometry">
+            <rect>
+             <x>470</x>
+             <y>520</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p6g">
+           <property name="geometry">
+            <rect>
+             <x>520</x>
+             <y>520</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p7g">
+           <property name="geometry">
+            <rect>
+             <x>570</x>
+             <y>520</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p8g">
+           <property name="geometry">
+            <rect>
+             <x>620</x>
+             <y>520</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p9g">
+           <property name="geometry">
+            <rect>
+             <x>670</x>
+             <y>520</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p10g">
+           <property name="geometry">
+            <rect>
+             <x>720</x>
+             <y>520</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p1h">
+           <property name="geometry">
+            <rect>
+             <x>270</x>
+             <y>580</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p2h">
+           <property name="geometry">
+            <rect>
+             <x>320</x>
+             <y>580</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p3h">
+           <property name="geometry">
+            <rect>
+             <x>370</x>
+             <y>580</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p4h">
+           <property name="geometry">
+            <rect>
+             <x>420</x>
+             <y>580</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p5h">
+           <property name="geometry">
+            <rect>
+             <x>470</x>
+             <y>580</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p6h">
+           <property name="geometry">
+            <rect>
+             <x>520</x>
+             <y>580</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p7h">
+           <property name="geometry">
+            <rect>
+             <x>570</x>
+             <y>580</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p8h">
+           <property name="geometry">
+            <rect>
+             <x>620</x>
+             <y>580</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p9h">
+           <property name="geometry">
+            <rect>
+             <x>670</x>
+             <y>580</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p10h">
+           <property name="geometry">
+            <rect>
+             <x>720</x>
+             <y>580</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p1i">
+           <property name="geometry">
+            <rect>
+             <x>270</x>
+             <y>640</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p2i">
+           <property name="geometry">
+            <rect>
+             <x>320</x>
+             <y>640</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p3i">
+           <property name="geometry">
+            <rect>
+             <x>370</x>
+             <y>640</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p4i">
+           <property name="geometry">
+            <rect>
+             <x>420</x>
+             <y>640</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p5i">
+           <property name="geometry">
+            <rect>
+             <x>470</x>
+             <y>640</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p6i">
+           <property name="geometry">
+            <rect>
+             <x>520</x>
+             <y>640</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p7i">
+           <property name="geometry">
+            <rect>
+             <x>570</x>
+             <y>640</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p8i">
+           <property name="geometry">
+            <rect>
+             <x>620</x>
+             <y>640</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p9i">
+           <property name="geometry">
+            <rect>
+             <x>670</x>
+             <y>640</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p10i">
+           <property name="geometry">
+            <rect>
+             <x>720</x>
+             <y>640</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB10_2">
+           <property name="geometry">
+            <rect>
+             <x>210</x>
+             <y>160</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(85, 255, 127);</string>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string>A</string>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB10_3">
+           <property name="geometry">
+            <rect>
+             <x>210</x>
+             <y>220</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(85, 255, 127);</string>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string>B</string>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB10_4">
+           <property name="geometry">
+            <rect>
+             <x>210</x>
+             <y>280</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(85, 255, 127);</string>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string>C</string>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB10_5">
+           <property name="geometry">
+            <rect>
+             <x>210</x>
+             <y>340</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(85, 255, 127);</string>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string>D</string>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB10_6">
+           <property name="geometry">
+            <rect>
+             <x>210</x>
+             <y>400</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(85, 255, 127);</string>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string>E</string>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB10_7">
+           <property name="geometry">
+            <rect>
+             <x>210</x>
+             <y>460</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(85, 255, 127);</string>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string>F</string>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB10_8">
+           <property name="geometry">
+            <rect>
+             <x>210</x>
+             <y>520</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(85, 255, 127);</string>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string>G</string>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB10_9">
+           <property name="geometry">
+            <rect>
+             <x>210</x>
+             <y>580</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(85, 255, 127);</string>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string>H</string>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB10_10">
+           <property name="geometry">
+            <rect>
+             <x>210</x>
+             <y>640</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(85, 255, 127);</string>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string>I</string>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB10_11">
+           <property name="geometry">
+            <rect>
+             <x>270</x>
+             <y>750</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(85, 255, 127);</string>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string>1</string>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB10_12">
+           <property name="geometry">
+            <rect>
+             <x>320</x>
+             <y>750</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(85, 255, 127);</string>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string>2</string>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB10_13">
+           <property name="geometry">
+            <rect>
+             <x>370</x>
+             <y>750</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(85, 255, 127);</string>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string>3</string>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB10_14">
+           <property name="geometry">
+            <rect>
+             <x>420</x>
+             <y>750</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(85, 255, 127);</string>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string>4</string>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB10_15">
+           <property name="geometry">
+            <rect>
+             <x>470</x>
+             <y>750</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(85, 255, 127);</string>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string>5</string>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB10_16">
+           <property name="geometry">
+            <rect>
+             <x>520</x>
+             <y>750</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(85, 255, 127);</string>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string>6</string>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB10_17">
+           <property name="geometry">
+            <rect>
+             <x>570</x>
+             <y>750</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(85, 255, 127);</string>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string>7</string>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB10_18">
+           <property name="geometry">
+            <rect>
+             <x>620</x>
+             <y>750</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(85, 255, 127);</string>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string>8</string>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB10_19">
+           <property name="geometry">
+            <rect>
+             <x>670</x>
+             <y>750</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(85, 255, 127);</string>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string>9</string>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB10_20">
+           <property name="geometry">
+            <rect>
+             <x>720</x>
+             <y>750</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(85, 255, 127);</string>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string>10</string>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_2">
+           <property name="geometry">
+            <rect>
+             <x>300</x>
+             <y>850</y>
+             <width>40</width>
+             <height>40</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 0, 0);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_5">
+           <property name="geometry">
+            <rect>
+             <x>300</x>
+             <y>910</y>
+             <width>40</width>
+             <height>40</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">
+background-color: rgb(255, 255, 0);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_pay">
+           <property name="geometry">
+            <rect>
+             <x>732</x>
+             <y>857</y>
+             <width>171</width>
+             <height>51</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>THANH TOÁN</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_price">
+           <property name="geometry">
+            <rect>
+             <x>480</x>
+             <y>860</y>
+             <width>221</width>
+             <height>51</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>11</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string>Giá tiền</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p7j">
+           <property name="geometry">
+            <rect>
+             <x>570</x>
+             <y>700</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p9j">
+           <property name="geometry">
+            <rect>
+             <x>670</x>
+             <y>700</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p10j">
+           <property name="geometry">
+            <rect>
+             <x>720</x>
+             <y>700</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p6j">
+           <property name="geometry">
+            <rect>
+             <x>520</x>
+             <y>700</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p8j">
+           <property name="geometry">
+            <rect>
+             <x>620</x>
+             <y>700</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p1j">
+           <property name="geometry">
+            <rect>
+             <x>270</x>
+             <y>700</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p3j">
+           <property name="geometry">
+            <rect>
+             <x>370</x>
+             <y>700</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p5j">
+           <property name="geometry">
+            <rect>
+             <x>470</x>
+             <y>700</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p4j">
+           <property name="geometry">
+            <rect>
+             <x>420</x>
+             <y>700</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="p2j">
+           <property name="geometry">
+            <rect>
+             <x>320</x>
+             <y>700</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblA3_3">
+           <property name="geometry">
+            <rect>
+             <x>620</x>
+             <y>700</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblA2_3">
+           <property name="geometry">
+            <rect>
+             <x>670</x>
+             <y>700</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblA4_3">
+           <property name="geometry">
+            <rect>
+             <x>570</x>
+             <y>700</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblA5_3">
+           <property name="geometry">
+            <rect>
+             <x>520</x>
+             <y>700</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblA9_3">
+           <property name="geometry">
+            <rect>
+             <x>320</x>
+             <y>700</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblA7_3">
+           <property name="geometry">
+            <rect>
+             <x>420</x>
+             <y>700</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblA6_3">
+           <property name="geometry">
+            <rect>
+             <x>470</x>
+             <y>700</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblA8_3">
+           <property name="geometry">
+            <rect>
+             <x>370</x>
+             <y>700</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblA10_35">
+           <property name="geometry">
+            <rect>
+             <x>720</x>
+             <y>700</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblA10_36">
+           <property name="geometry">
+            <rect>
+             <x>270</x>
+             <y>700</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>C:/Users/hieun/.designer/backup/images.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblB10_41">
+           <property name="geometry">
+            <rect>
+             <x>210</x>
+             <y>700</y>
+             <width>35</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(85, 255, 127);</string>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string>J</string>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <zorder>lblA10_35</zorder>
+          <zorder>lblA10_36</zorder>
+          <zorder>lblA4_3</zorder>
+          <zorder>lblA2_3</zorder>
+          <zorder>lblA8_3</zorder>
+          <zorder>lblA7_3</zorder>
+          <zorder>lblA6_3</zorder>
+          <zorder>lblA3_3</zorder>
+          <zorder>lblA9_3</zorder>
+          <zorder>lblA5_3</zorder>
+          <zorder>label_3</zorder>
+          <zorder>lblB6_22</zorder>
+          <zorder>lblB6_11</zorder>
+          <zorder>lblD5</zorder>
+          <zorder>lblE9</zorder>
+          <zorder>lblB1</zorder>
+          <zorder>lblB6_5</zorder>
+          <zorder>lblB6_29</zorder>
+          <zorder>lblB5</zorder>
+          <zorder>lblA2</zorder>
+          <zorder>lblB6_27</zorder>
+          <zorder>lblA3</zorder>
+          <zorder>lblB6_33</zorder>
+          <zorder>lblA10_15</zorder>
+          <zorder>lblB6_41</zorder>
+          <zorder>lblB6_8</zorder>
+          <zorder>label_6</zorder>
+          <zorder>lblA10_9</zorder>
+          <zorder>lblB6_9</zorder>
+          <zorder>lblE6</zorder>
+          <zorder>lblD3</zorder>
+          <zorder>lblA5</zorder>
+          <zorder>lblD10</zorder>
+          <zorder>lblB6_7</zorder>
+          <zorder>lblA10_8</zorder>
+          <zorder>lblB6_40</zorder>
+          <zorder>lblA4</zorder>
+          <zorder>lblB6_23</zorder>
+          <zorder>lblB6_35</zorder>
+          <zorder>lblB6_20</zorder>
+          <zorder>lblD4</zorder>
+          <zorder>lblA10_14</zorder>
+          <zorder>lblA6</zorder>
+          <zorder>lblC5</zorder>
+          <zorder>lblA10_16</zorder>
+          <zorder>lblE10</zorder>
+          <zorder>lblD6</zorder>
+          <zorder>lblB6_31</zorder>
+          <zorder>lblE4</zorder>
+          <zorder>lblB6_38</zorder>
+          <zorder>lblA7</zorder>
+          <zorder>lblB2</zorder>
+          <zorder>lblA1</zorder>
+          <zorder>lblB6_4</zorder>
+          <zorder>lblD12</zorder>
+          <zorder>lblE7</zorder>
+          <zorder>lblA10_12</zorder>
+          <zorder>lblB6_16</zorder>
+          <zorder>lblB6_2</zorder>
+          <zorder>lblA10_6</zorder>
+          <zorder>lblD9</zorder>
+          <zorder>lblE8</zorder>
+          <zorder>lblB6_32</zorder>
+          <zorder>lblB6_18</zorder>
+          <zorder>lblB6</zorder>
+          <zorder>lblD11</zorder>
+          <zorder>lblD8</zorder>
+          <zorder>lblB6_21</zorder>
+          <zorder>lblB6_39</zorder>
+          <zorder>lblA8</zorder>
+          <zorder>lblB6_12</zorder>
+          <zorder>pushButton_19</zorder>
+          <zorder>lblB6_3</zorder>
+          <zorder>lblB6_10</zorder>
+          <zorder>lblB6_37</zorder>
+          <zorder>lblB7</zorder>
+          <zorder>lblB6_28</zorder>
+          <zorder>lblB6_25</zorder>
+          <zorder>lblB4</zorder>
+          <zorder>lblC12</zorder>
+          <zorder>lblB9</zorder>
+          <zorder>lblB6_14</zorder>
+          <zorder>lblB8</zorder>
+          <zorder>lblB6_19</zorder>
+          <zorder>lblA10_11</zorder>
+          <zorder>label_4</zorder>
+          <zorder>lblA10_4</zorder>
+          <zorder>lblA10_2</zorder>
+          <zorder>lblB6_34</zorder>
+          <zorder>label</zorder>
+          <zorder>lblD7</zorder>
+          <zorder>lblA10_10</zorder>
+          <zorder>lblA10_3</zorder>
+          <zorder>lblB6_17</zorder>
+          <zorder>lblE5</zorder>
+          <zorder>lblB6_30</zorder>
+          <zorder>lblB3</zorder>
+          <zorder>lblE12</zorder>
+          <zorder>lblB6_15</zorder>
+          <zorder>lblB6_26</zorder>
+          <zorder>lblB6_36</zorder>
+          <zorder>lblE3</zorder>
+          <zorder>lblA10_13</zorder>
+          <zorder>lblE11</zorder>
+          <zorder>lblB6_6</zorder>
+          <zorder>lblA10_5</zorder>
+          <zorder>lblB10</zorder>
+          <zorder>lblA10_7</zorder>
+          <zorder>lblC4</zorder>
+          <zorder>lblA10</zorder>
+          <zorder>lblB6_13</zorder>
+          <zorder>lblB6_24</zorder>
+          <zorder>lblA10_17</zorder>
+          <zorder>lblD12_2</zorder>
+          <zorder>lblD12_3</zorder>
+          <zorder>lblD12_4</zorder>
+          <zorder>lblD12_5</zorder>
+          <zorder>lblD12_6</zorder>
+          <zorder>lblD12_7</zorder>
+          <zorder>lblA9</zorder>
+          <zorder>lblB10_2</zorder>
+          <zorder>p10d</zorder>
+          <zorder>p2b</zorder>
+          <zorder>p6b</zorder>
+          <zorder>p4f</zorder>
+          <zorder>p3c</zorder>
+          <zorder>p5g</zorder>
+          <zorder>p3e</zorder>
+          <zorder>p5i</zorder>
+          <zorder>p9e</zorder>
+          <zorder>p1i</zorder>
+          <zorder>p9f</zorder>
+          <zorder>p3g</zorder>
+          <zorder>p8c</zorder>
+          <zorder>p9g</zorder>
+          <zorder>p6h</zorder>
+          <zorder>p2e</zorder>
+          <zorder>p3d</zorder>
+          <zorder>p8i</zorder>
+          <zorder>p1b</zorder>
+          <zorder>p2f</zorder>
+          <zorder>p6g</zorder>
+          <zorder>p1e</zorder>
+          <zorder>p5f</zorder>
+          <zorder>p4a</zorder>
+          <zorder>p1d</zorder>
+          <zorder>p2c</zorder>
+          <zorder>p9a</zorder>
+          <zorder>p5c</zorder>
+          <zorder>p7a</zorder>
+          <zorder>p10h</zorder>
+          <zorder>p9d</zorder>
+          <zorder>p10i</zorder>
+          <zorder>p7g</zorder>
+          <zorder>p6c</zorder>
+          <zorder>p8a</zorder>
+          <zorder>p6d</zorder>
+          <zorder>p2d</zorder>
+          <zorder>p8g</zorder>
+          <zorder>p10e</zorder>
+          <zorder>p2h</zorder>
+          <zorder>p4c</zorder>
+          <zorder>p3b</zorder>
+          <zorder>p6e</zorder>
+          <zorder>p7d</zorder>
+          <zorder>p2i</zorder>
+          <zorder>p3h</zorder>
+          <zorder>p5e</zorder>
+          <zorder>lblC3</zorder>
+          <zorder>p1g</zorder>
+          <zorder>p5a</zorder>
+          <zorder>p6a</zorder>
+          <zorder>p9b</zorder>
+          <zorder>p4d</zorder>
+          <zorder>p8f</zorder>
+          <zorder>p8d</zorder>
+          <zorder>p7c</zorder>
+          <zorder>p2a</zorder>
+          <zorder>p1h</zorder>
+          <zorder>p4e</zorder>
+          <zorder>p5h</zorder>
+          <zorder>p1c</zorder>
+          <zorder>p3i</zorder>
+          <zorder>p9h</zorder>
+          <zorder>p4b</zorder>
+          <zorder>p7b</zorder>
+          <zorder>p5d</zorder>
+          <zorder>p7e</zorder>
+          <zorder>p1a</zorder>
+          <zorder>p10b</zorder>
+          <zorder>p7f</zorder>
+          <zorder>p8h</zorder>
+          <zorder>p10f</zorder>
+          <zorder>p3f</zorder>
+          <zorder>p8b</zorder>
+          <zorder>p3a</zorder>
+          <zorder>p6i</zorder>
+          <zorder>p10g</zorder>
+          <zorder>p9c</zorder>
+          <zorder>p8e</zorder>
+          <zorder>p4h</zorder>
+          <zorder>p7h</zorder>
+          <zorder>p1f</zorder>
+          <zorder>p4i</zorder>
+          <zorder>p5b</zorder>
+          <zorder>p4g</zorder>
+          <zorder>p9i</zorder>
+          <zorder>p6f</zorder>
+          <zorder>p2g</zorder>
+          <zorder>p10a</zorder>
+          <zorder>p10c</zorder>
+          <zorder>p7i</zorder>
+          <zorder>lblB10_3</zorder>
+          <zorder>lblB10_4</zorder>
+          <zorder>lblB10_5</zorder>
+          <zorder>lblB10_6</zorder>
+          <zorder>lblB10_7</zorder>
+          <zorder>lblB10_8</zorder>
+          <zorder>lblB10_9</zorder>
+          <zorder>lblB10_10</zorder>
+          <zorder>lblB10_11</zorder>
+          <zorder>lblB10_12</zorder>
+          <zorder>lblB10_13</zorder>
+          <zorder>lblB10_14</zorder>
+          <zorder>lblB10_15</zorder>
+          <zorder>lblB10_16</zorder>
+          <zorder>lblB10_17</zorder>
+          <zorder>lblB10_18</zorder>
+          <zorder>lblB10_19</zorder>
+          <zorder>lblB10_20</zorder>
+          <zorder>label_2</zorder>
+          <zorder>label_5</zorder>
+          <zorder>pushButton_pay</zorder>
+          <zorder>label_price</zorder>
+          <zorder>p7j</zorder>
+          <zorder>p9j</zorder>
+          <zorder>p10j</zorder>
+          <zorder>p6j</zorder>
+          <zorder>p8j</zorder>
+          <zorder>p1j</zorder>
+          <zorder>p3j</zorder>
+          <zorder>p5j</zorder>
+          <zorder>p4j</zorder>
+          <zorder>p2j</zorder>
+          <zorder>lblB10_41</zorder>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
