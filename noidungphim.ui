@@ -39,4 +39,2039 @@
        <property name="geometry">
         <rect>
          <x>0</x>
-         <y>
+         <y>0</y>
+         <width>1022</width>
+         <height>1022</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_4">
+        <item>
+         <widget class="QFrame" name="frame">
+          <property name="minimumSize">
+           <size>
+            <width>1000</width>
+            <height>1000</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(170, 255, 255);</string>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <property name="lineWidth">
+           <number>0</number>
+          </property>
+          <widget class="QLabel" name="label_2">
+           <property name="geometry">
+            <rect>
+             <x>350</x>
+             <y>60</y>
+             <width>601</width>
+             <height>81</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>14</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_4">
+           <property name="geometry">
+            <rect>
+             <x>350</x>
+             <y>190</y>
+             <width>101</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>10</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>Thời lượng :</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_8">
+           <property name="geometry">
+            <rect>
+             <x>350</x>
+             <y>240</y>
+             <width>141</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>10</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>Giới hạn độ tuổi : </string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label">
+           <property name="geometry">
+            <rect>
+             <x>20</x>
+             <y>80</y>
+             <width>281</width>
+             <height>391</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/newPrefix/phim-chieu-rap-anh-14.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="wordWrap">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_3">
+           <property name="geometry">
+            <rect>
+             <x>350</x>
+             <y>145</y>
+             <width>81</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>10</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>Thể loại :</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_2">
+           <property name="geometry">
+            <rect>
+             <x>570</x>
+             <y>450</y>
+             <width>93</width>
+             <height>20</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>TRAILER</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_7">
+           <property name="geometry">
+            <rect>
+             <x>510</x>
+             <y>190</y>
+             <width>341</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>10</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_9">
+           <property name="geometry">
+            <rect>
+             <x>510</x>
+             <y>240</y>
+             <width>81</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>10</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_5">
+           <property name="geometry">
+            <rect>
+             <x>350</x>
+             <y>280</y>
+             <width>631</width>
+             <height>161</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>10</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QLabel { text-align: justify; };</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="textFormat">
+            <enum>Qt::AutoText</enum>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignJustify|Qt::AlignVCenter</set>
+           </property>
+           <property name="wordWrap">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_6">
+           <property name="geometry">
+            <rect>
+             <x>520</x>
+             <y>140</y>
+             <width>331</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>10</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="back">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>10</y>
+             <width>93</width>
+             <height>28</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>BACK</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_10">
+           <property name="geometry">
+            <rect>
+             <x>530</x>
+             <y>240</y>
+             <width>81</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>10</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>tuổi</string>
+           </property>
+          </widget>
+          <widget class="QStackedWidget" name="stackedWidget">
+           <property name="geometry">
+            <rect>
+             <x>70</x>
+             <y>600</y>
+             <width>871</width>
+             <height>291</height>
+            </rect>
+           </property>
+           <property name="currentIndex">
+            <number>1</number>
+           </property>
+           <widget class="QWidget" name="page">
+            <widget class="QPushButton" name="pushButton_16">
+             <property name="geometry">
+              <rect>
+               <x>30</x>
+               <y>120</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QLabel" name="l11">
+             <property name="geometry">
+              <rect>
+               <x>30</x>
+               <y>120</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>10</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLabel" name="l12">
+             <property name="geometry">
+              <rect>
+               <x>205</x>
+               <y>120</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>10</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLabel" name="l13">
+             <property name="geometry">
+              <rect>
+               <x>380</x>
+               <y>120</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>10</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLabel" name="l14">
+             <property name="geometry">
+              <rect>
+               <x>555</x>
+               <y>120</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>10</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLabel" name="l15">
+             <property name="geometry">
+              <rect>
+               <x>730</x>
+               <y>120</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>10</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLabel" name="l16">
+             <property name="geometry">
+              <rect>
+               <x>30</x>
+               <y>210</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>10</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLabel" name="l17">
+             <property name="geometry">
+              <rect>
+               <x>205</x>
+               <y>210</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>10</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_11">
+             <property name="geometry">
+              <rect>
+               <x>129</x>
+               <y>180</y>
+               <width>651</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_21">
+             <property name="geometry">
+              <rect>
+               <x>205</x>
+               <y>120</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_22">
+             <property name="geometry">
+              <rect>
+               <x>380</x>
+               <y>120</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_23">
+             <property name="geometry">
+              <rect>
+               <x>555</x>
+               <y>120</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_24">
+             <property name="geometry">
+              <rect>
+               <x>730</x>
+               <y>120</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_25">
+             <property name="geometry">
+              <rect>
+               <x>30</x>
+               <y>210</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_26">
+             <property name="geometry">
+              <rect>
+               <x>205</x>
+               <y>210</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <zorder>pushButton_16</zorder>
+            <zorder>label_11</zorder>
+            <zorder>pushButton_21</zorder>
+            <zorder>pushButton_22</zorder>
+            <zorder>pushButton_23</zorder>
+            <zorder>pushButton_25</zorder>
+            <zorder>pushButton_26</zorder>
+            <zorder>l12</zorder>
+            <zorder>l13</zorder>
+            <zorder>l14</zorder>
+            <zorder>l16</zorder>
+            <zorder>l11</zorder>
+            <zorder>pushButton_24</zorder>
+            <zorder>l15</zorder>
+            <zorder>l17</zorder>
+           </widget>
+           <widget class="QWidget" name="page_2">
+            <widget class="QLabel" name="l23">
+             <property name="geometry">
+              <rect>
+               <x>380</x>
+               <y>120</y>
+               <width>50</width>
+               <height>50</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLabel" name="l25">
+             <property name="geometry">
+              <rect>
+               <x>730</x>
+               <y>120</y>
+               <width>50</width>
+               <height>50</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLabel" name="l24">
+             <property name="geometry">
+              <rect>
+               <x>555</x>
+               <y>120</y>
+               <width>50</width>
+               <height>50</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLabel" name="l27">
+             <property name="geometry">
+              <rect>
+               <x>205</x>
+               <y>210</y>
+               <width>50</width>
+               <height>50</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLabel" name="l22">
+             <property name="geometry">
+              <rect>
+               <x>225</x>
+               <y>130</y>
+               <width>50</width>
+               <height>50</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLabel" name="l26">
+             <property name="geometry">
+              <rect>
+               <x>30</x>
+               <y>210</y>
+               <width>50</width>
+               <height>50</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLabel" name="l21">
+             <property name="geometry">
+              <rect>
+               <x>30</x>
+               <y>120</y>
+               <width>50</width>
+               <height>50</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_27">
+             <property name="geometry">
+              <rect>
+               <x>205</x>
+               <y>210</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_28">
+             <property name="geometry">
+              <rect>
+               <x>30</x>
+               <y>120</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_29">
+             <property name="geometry">
+              <rect>
+               <x>205</x>
+               <y>120</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_30">
+             <property name="geometry">
+              <rect>
+               <x>30</x>
+               <y>210</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_31">
+             <property name="geometry">
+              <rect>
+               <x>555</x>
+               <y>120</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_32">
+             <property name="geometry">
+              <rect>
+               <x>730</x>
+               <y>120</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_33">
+             <property name="geometry">
+              <rect>
+               <x>380</x>
+               <y>120</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <zorder>pushButton_27</zorder>
+            <zorder>pushButton_28</zorder>
+            <zorder>pushButton_29</zorder>
+            <zorder>pushButton_30</zorder>
+            <zorder>pushButton_31</zorder>
+            <zorder>pushButton_32</zorder>
+            <zorder>pushButton_33</zorder>
+            <zorder>l22</zorder>
+            <zorder>l27</zorder>
+            <zorder>l25</zorder>
+            <zorder>l24</zorder>
+            <zorder>l23</zorder>
+            <zorder>l26</zorder>
+            <zorder>l21</zorder>
+           </widget>
+           <widget class="QWidget" name="page_3">
+            <widget class="QLabel" name="l33">
+             <property name="geometry">
+              <rect>
+               <x>380</x>
+               <y>120</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>10</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLabel" name="l35">
+             <property name="geometry">
+              <rect>
+               <x>780</x>
+               <y>120</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>10</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_18">
+             <property name="geometry">
+              <rect>
+               <x>140</x>
+               <y>600</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>Thứ ba</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="l34">
+             <property name="geometry">
+              <rect>
+               <x>555</x>
+               <y>120</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>10</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLabel" name="l37">
+             <property name="geometry">
+              <rect>
+               <x>205</x>
+               <y>210</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>10</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLabel" name="l32">
+             <property name="geometry">
+              <rect>
+               <x>205</x>
+               <y>120</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>10</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLabel" name="l36">
+             <property name="geometry">
+              <rect>
+               <x>30</x>
+               <y>210</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>10</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLabel" name="l31">
+             <property name="geometry">
+              <rect>
+               <x>30</x>
+               <y>120</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>10</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_34">
+             <property name="geometry">
+              <rect>
+               <x>205</x>
+               <y>210</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_35">
+             <property name="geometry">
+              <rect>
+               <x>30</x>
+               <y>120</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_36">
+             <property name="geometry">
+              <rect>
+               <x>205</x>
+               <y>120</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_37">
+             <property name="geometry">
+              <rect>
+               <x>30</x>
+               <y>210</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_38">
+             <property name="geometry">
+              <rect>
+               <x>555</x>
+               <y>120</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_39">
+             <property name="geometry">
+              <rect>
+               <x>730</x>
+               <y>120</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_40">
+             <property name="geometry">
+              <rect>
+               <x>380</x>
+               <y>120</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </widget>
+           <widget class="QWidget" name="page_4">
+            <widget class="QLabel" name="l43">
+             <property name="geometry">
+              <rect>
+               <x>380</x>
+               <y>120</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>10</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLabel" name="l45">
+             <property name="geometry">
+              <rect>
+               <x>730</x>
+               <y>120</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>10</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_19">
+             <property name="geometry">
+              <rect>
+               <x>140</x>
+               <y>610</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>Thứ ba</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="l44">
+             <property name="geometry">
+              <rect>
+               <x>555</x>
+               <y>120</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>10</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLabel" name="l47">
+             <property name="geometry">
+              <rect>
+               <x>205</x>
+               <y>210</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>10</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLabel" name="l42">
+             <property name="geometry">
+              <rect>
+               <x>205</x>
+               <y>120</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>10</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLabel" name="l46">
+             <property name="geometry">
+              <rect>
+               <x>30</x>
+               <y>210</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>10</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLabel" name="l41">
+             <property name="geometry">
+              <rect>
+               <x>30</x>
+               <y>120</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>10</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_41">
+             <property name="geometry">
+              <rect>
+               <x>205</x>
+               <y>210</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_42">
+             <property name="geometry">
+              <rect>
+               <x>30</x>
+               <y>120</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_43">
+             <property name="geometry">
+              <rect>
+               <x>205</x>
+               <y>120</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_44">
+             <property name="geometry">
+              <rect>
+               <x>30</x>
+               <y>210</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_45">
+             <property name="geometry">
+              <rect>
+               <x>555</x>
+               <y>120</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_46">
+             <property name="geometry">
+              <rect>
+               <x>730</x>
+               <y>120</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_47">
+             <property name="geometry">
+              <rect>
+               <x>380</x>
+               <y>120</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </widget>
+           <widget class="QWidget" name="page_5">
+            <widget class="QLabel" name="l53">
+             <property name="geometry">
+              <rect>
+               <x>380</x>
+               <y>120</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>10</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLabel" name="l54">
+             <property name="geometry">
+              <rect>
+               <x>555</x>
+               <y>120</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>10</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_20">
+             <property name="geometry">
+              <rect>
+               <x>160</x>
+               <y>600</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>Thứ ba</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="l55">
+             <property name="geometry">
+              <rect>
+               <x>730</x>
+               <y>120</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>10</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLabel" name="l57">
+             <property name="geometry">
+              <rect>
+               <x>205</x>
+               <y>210</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>10</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLabel" name="l52">
+             <property name="geometry">
+              <rect>
+               <x>205</x>
+               <y>120</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>10</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLabel" name="l56">
+             <property name="geometry">
+              <rect>
+               <x>30</x>
+               <y>210</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>10</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLabel" name="l51">
+             <property name="geometry">
+              <rect>
+               <x>30</x>
+               <y>120</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>10</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_48">
+             <property name="geometry">
+              <rect>
+               <x>205</x>
+               <y>210</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_49">
+             <property name="geometry">
+              <rect>
+               <x>30</x>
+               <y>120</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_50">
+             <property name="geometry">
+              <rect>
+               <x>205</x>
+               <y>120</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_51">
+             <property name="geometry">
+              <rect>
+               <x>30</x>
+               <y>210</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_52">
+             <property name="geometry">
+              <rect>
+               <x>555</x>
+               <y>120</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_53">
+             <property name="geometry">
+              <rect>
+               <x>730</x>
+               <y>120</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_54">
+             <property name="geometry">
+              <rect>
+               <x>380</x>
+               <y>120</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none; /* Loại bỏ viền (nếu cần) */
+    color: black; /* Màu chữ (có thể thay đổi) */
+}
+</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </widget>
+           <widget class="QWidget" name="page_6">
+            <widget class="QPushButton" name="pushButton_15">
+             <property name="geometry">
+              <rect>
+               <x>545</x>
+               <y>120</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>17:00</string>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_11">
+             <property name="geometry">
+              <rect>
+               <x>205</x>
+               <y>120</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>11:00</string>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_9">
+             <property name="geometry">
+              <rect>
+               <x>30</x>
+               <y>120</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>09:00</string>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_10">
+             <property name="geometry">
+              <rect>
+               <x>30</x>
+               <y>210</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>20:30</string>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_12">
+             <property name="geometry">
+              <rect>
+               <x>205</x>
+               <y>210</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>22:00</string>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_13">
+             <property name="geometry">
+              <rect>
+               <x>375</x>
+               <y>120</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>15:00</string>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_17">
+             <property name="geometry">
+              <rect>
+               <x>715</x>
+               <y>120</y>
+               <width>90</width>
+               <height>70</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>19:00</string>
+             </property>
+            </widget>
+           </widget>
+           <widget class="QWidget" name="page_7">
+            <widget class="QLabel" name="label_12">
+             <property name="geometry">
+              <rect>
+               <x>74</x>
+               <y>129</y>
+               <width>751</width>
+               <height>71</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>KHÔNG CÓ LỊCH CHIẾU</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </widget>
+          </widget>
+          <widget class="QPushButton" name="pushButton">
+           <property name="geometry">
+            <rect>
+             <x>100</x>
+             <y>610</y>
+             <width>90</width>
+             <height>70</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Thứ hai 22/5</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_3">
+           <property name="geometry">
+            <rect>
+             <x>220</x>
+             <y>610</y>
+             <width>90</width>
+             <height>70</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Thứ ba 23/5</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_4">
+           <property name="geometry">
+            <rect>
+             <x>340</x>
+             <y>610</y>
+             <width>90</width>
+             <height>71</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Thứ tư 24/5</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_5">
+           <property name="geometry">
+            <rect>
+             <x>580</x>
+             <y>610</y>
+             <width>90</width>
+             <height>71</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Thứ sáu 27/5</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_6">
+           <property name="geometry">
+            <rect>
+             <x>700</x>
+             <y>610</y>
+             <width>90</width>
+             <height>71</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Thứ bảy 28/5</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_7">
+           <property name="geometry">
+            <rect>
+             <x>460</x>
+             <y>610</y>
+             <width>90</width>
+             <height>71</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Thứ năm 26/5</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_8">
+           <property name="geometry">
+            <rect>
+             <x>820</x>
+             <y>610</y>
+             <width>90</width>
+             <height>71</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Chủ nhật 30/5 </string>
+           </property>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
