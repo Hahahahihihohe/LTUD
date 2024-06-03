@@ -17,30 +17,57 @@ class Movie_time():
                 seat[i][j] = self.seat[i*10 + j]
         return seat #tra ve mang numpy nhin cho de
 
-    def Update(self,picked_seat, user):
+    def Update(self, picked_seat, user):
         if user.GetMoney() < len(picked_seat) * 55000:
-            print("khong du tien")
+            print("Không đủ tiền")
             return False
-        #picked_seat là một mảng numpy có shape (n,2), đặt n chỗ, mỗi chỗ gồm tọa độ (cot va hang)
+
+        # picked_seat là một mảng numpy có shape (n,2), đặt n chỗ, mỗi chỗ gồm tọa độ (cot và hang)
+        print("Bắt đầu cập nhật ghế")
         seat_list = list(self.seat)
+        print("Danh sách ghế trước khi cập nhật:", seat_list)
+        print("Ghế đã chọn:", picked_seat)
+
         for i in range(picked_seat.shape[0]):
-            seat_list[picked_seat[i][0]*10 + picked_seat[i][1]] = '1'
+            row = int(picked_seat[i][0])
+            col = int(picked_seat[i][1])
+            print(f"Đang xử lý ghế tại hàng {row}, cột {col}")
+
+            # Kiểm tra điều kiện hợp lệ của tọa độ
+            if row >= 0 and row < 10 and col >= 0 and col < 10:
+                seat_list[row * 10 + col] = '1'
+                print(f"Đã cập nhật ghế tại hàng {row}, cột {col} thành 1")
+            else:
+                print(f"Tọa độ ({row}, {col}) không hợp lệ, bỏ qua")
+
         self.seat = ''.join(seat_list)
-        sql = "update movie_time set seat = %s where id = %s"
-        db.execute(sql, [self.seat, self.id])
-        db.mydb.commit()
-        sql = "INSERT INTO order_history (user_id, movie_name,price,time) VALUES (%s, %s, %s , %s)"
-        db.execute(sql, [user.id, self.name[0],55000 * len(picked_seat), str(datetime.now())])
-        db.mydb.commit()
-        user.stinks(55000 * len(picked_seat))
-        sql = "update user_info set money = %s where id = %s"
-        db.execute(sql,[user.GetMoney(),user.id])
-        db.mydb.commit()
-        print("Mua thanh cong")
-        return True
+        print("Danh sách ghế sau khi cập nhật:", self.seat)
+
+        try:
+            sql = "UPDATE movie_time SET seat = %s WHERE id = %s"
+            db.execute(sql, [self.seat, self.id])
+            db.mydb.commit()
+            print("Cập nhật ghế thành công trong cơ sở dữ liệu")
+
+            sql = "INSERT INTO order_history (user_id, movie_name, price, time) VALUES (%s, %s, %s, %s)"
+            db.execute(sql, [user.id, self.name[0], 55000 * len(picked_seat), str(datetime.now())])
+            db.mydb.commit()
+            print("Thêm lịch sử đặt vé thành công")
+
+            user.stinks(55000 * len(picked_seat))
+            sql = "UPDATE user_info SET money = %s WHERE id = %s"
+            db.execute(sql, [user.GetMoney(), user.id])
+            db.mydb.commit()
+            print("Cập nhật số tiền người dùng thành công")
+
+            print("Mua thành công")
+            return True
+        except Exception as e:
+            print(f"Có lỗi xảy ra: {e}")
+            return False
 
     def showALL(self):
-        print(self.id,self.movie_id,self.name, self.day,self.hour,self.seat)
+        print(self.id, self.movie_id, self.name, self.day, self.hour, self.seat)
 class Booking_screen():
     def __init__(self):
         self.list = []
@@ -59,13 +86,11 @@ class Booking_screen():
             movie_time.movie_id = movie_id
             self.list.append(movie_time)
 
-
-    def ShowMovieTime(self,day):
-        # hiển thị toàn bộ lịch chiếu của phim đó
+    def ShowMovieTime(self, movie_id):
+        # Hiển thị toàn bộ lịch chiếu của phim đó cho ngày cụ thể
         list1 = []
         for i in self.list:
-            if i.day[0:2] == str(day):
-
+            if i.movie_id == str(movie_id) :
                 list1.append(i)
 
         return list1
