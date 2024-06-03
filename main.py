@@ -297,17 +297,17 @@ class SlideBar(QMainWindow):
 
         # Đường dẫn tới các hình ảnh
         image_paths = [
-            "D:/LTUD/pythonProject5/Quỷ Ám Tín Đồ.png",
-            "D:/LTUD/pythonProject5/tải xuống (2).jpg",
-            "D:/LTUD/pythonProject5/Nhóc Trùm Nối Nghiệp Gia Đình.png",
-            "D:/LTUD/pythonProject5/Wolfoo Và Hòn Đảo Kỳ Bí.png",
-            "D:/LTUD/pythonProject5/tải xuống.jpg",
-            "D:/LTUD/pythonProject5/tải xuống (1).jpg",
-            "D:/LTUD/pythonProject5/Thám Tử Lừng Danh Conan Tàu Ngầm Sắt Màu Đen.png",
-            "D:/LTUD/pythonProject5/tải xuống (4).jpg",
-            "D:/LTUD/pythonProject5/Học Thuyết.png",
-            "D:/LTUD/pythonProject5/tải xuống (6).jpg",
-            "D:/LTUD/pythonProject5/tải xuống (5).jpg"
+            "Quỷ Ám Tín Đồ.png",
+            "tải xuống (2).jpg",
+            "Nhóc Trùm Nối Nghiệp Gia Đình.png",
+            "Wolfoo Và Hòn Đảo Kỳ Bí.png",
+            "tải xuống.jpg",
+            "tải xuống (1).jpg",
+            "Thám Tử Lừng Danh Conan Tàu Ngầm Sắt Màu Đen.png",
+            "tải xuống (4).jpg",
+            "Học Thuyết.png",
+            "tải xuống (6).jpg",
+            "tải xuống (5).jpg"
         ]
 
         self.pixmaps = [QPixmap(path) for path in image_paths] #cập nhật hình ảnh
