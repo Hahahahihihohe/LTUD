@@ -22,7 +22,7 @@ class Movie():
 
     def GetTime(self):
         #Trả về thời lượng phim
-        return str(self.time)
+        return self.time
 
     def GetDes(self):
         #Trả về mô tả phim
@@ -45,7 +45,7 @@ class Mainscreen():
         #load tất cả phim, self.Movie là một list
         sql = "Select ID, TENPHIM, THOILUONG, NOIDUNG, THELOAI, TUOI from movie"
         res = np.array(db.fetchall(sql))
-        print(res.shape)
+        #print(res.shape)
         for i in res:
             id , name, time, des, type, age_res = i
             movie = Movie(id,name, time, des, type,age_res)
