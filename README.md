@@ -3,3 +3,4 @@
 + movie_time.py #để kết nối đến db
 + login.py
 + user.
+link video giới thiệu và mô phỏng: https://drive.google.com/file/d/1Po72sVtTIPrH5KXbGGce1xm04_2wwIUt/view?usp=sharing
